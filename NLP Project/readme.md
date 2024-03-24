@@ -18,4 +18,4 @@ For more details about this dataset, you can refer to the following link:
 
 ## Tools: 
 
-Python,spacy,nltk,beautifulsoup,numpy,pandas
+Python, spacy, nltk, beautifulsoup, numpy, pandas
