@@ -15,3 +15,7 @@ retrieved from the imdb.com website in the early 2000s by Bo Pang and Lillian Le
 For more details about this dataset, you can refer to the following link: 
 
 [Dataset](http://www.cs.cornell.edu/people/pabo/movie-review-data/)
+
+## Tools: 
+
+Python,spacy,nltk,beautifulsoup,numpy,pandas
