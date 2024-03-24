@@ -26,13 +26,15 @@ To deploy this project run
 
 ## Screenshots
 
-![App Screenshot](https://github.com/prashas1/Predicting-Heart_Disease/assets/164464896/4bed9b10-c3bc-49ef-9e8b-c2b94d1e58a2)
+![App Screenshot](https://github.com/Prasad-55/Data-Science_Portflio/blob/main/Image%20Library/Screenshot%202024-03-22%20153827.png)
 
-![App Screenshot](https://github.com/prashas1/Predicting-Heart_Disease/assets/164464896/0e30ef49-b466-4722-8fd3-d0c7d0ec6d90)
+![App Screenshot](https://github.com/Prasad-55/Data-Science_Portflio/blob/main/Image%20Library/Screenshot%202024-03-22%20153839.png)
 
-![App Screenshot](https://github.com/prashas1/Predicting-Heart_Disease/assets/164464896/cf1832e8-bf25-4a86-83a1-dd5f57239036)
+![App Screenshot](https://github.com/Prasad-55/Data-Science_Portflio/blob/main/Image%20Library/Screenshot%202024-03-22%20153852.png)
 
-![App Screenshot](https://github.com/prashas1/Predicting-Heart_Disease/assets/164464896/9451e993-6a52-4a80-bccc-6c43b7851dad)
+![App Screenshot](https://github.com/Prasad-55/Data-Science_Portflio/blob/main/Image%20Library/Screenshot%202024-03-22%20153923.png)
+
+![App Screenshot](https://github.com/Prasad-55/Data-Science_Portflio/blob/main/Image%20Library/Screenshot%202024-03-22%20153936.png)
 
 
 ## 🛠 Skills
