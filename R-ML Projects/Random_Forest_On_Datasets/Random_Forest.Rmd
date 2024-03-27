@@ -1,0 +1,201 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+```{r}
+library(caTools)
+library(ROCR)
+library(tree)
+library(rpart)
+library(rpart.plot)
+
+pharma = read.csv("C:/PRASAD wORKS/Python Works/Final Intellipaat - Submission/R/Assignments/Pharmacovigilance_audit_Data.csv", stringsAsFactors = TRUE)
+
+churn = read.csv("C:/PRASAD wORKS/Python Works/Final Intellipaat - Submission/R/Assignments/customer_churn.csv", stringsAsFactors = TRUE)
+
+temperature = read.csv("C:/PRASAD wORKS/Python Works/Final Intellipaat - Submission/R/Assignments/city_temperature.csv", stringsAsFactors = TRUE)
+```
+
+```{r}
+independent_temperature <- "AvgTemperature" 
+dependent_temperature <-"Region"
+
+independent_churn <- "MonthlyCharges"
+dependent_churn <- "Churn"
+
+independent_pharma <- "Age" 
+dependent_pharma <- "DrugID"
+```
+
+```{r}
+sample.split(temperature$Region, SplitRatio = 0.70) -> split_tag1
+
+sample.split(churn$Churn, SplitRatio = 0.80) -> split_tag2
+
+sample.split(pharma$DrugID, SplitRatio = 0.75) -> split_tag3
+```
+
+
+```{r}
+train1 = subset(temperature, split_tag1==T)
+test1 = subset(temperature, split_tag1==F)
+```
+
+```{r}
+train2 = subset(churn, split_tag2==T)
+test2 = subset(churn, split_tag2==F)
+```
+
+```{r}
+train3 = subset(pharma, split_tag3==T)
+test3 = subset(pharma, split_tag3==F)
+```
+
+```{r}
+
+```
+
+
+```{r}
+tree_model1 <- rpart(Region ~ AvgTemperature + Day + Month + Year, data = train1)
+rpart.plot(tree_model1)
+```
+       
+
+```{r}
+tree_model2 <- rpart(Churn ~ tenure+StreamingTV+MonthlyCharges+TotalCharges , data = train2)
+rpart.plot(tree_model2)
+```
+
+```{r}
+tree_model3 <- rpart(DrugID ~ Gender+Age+PatientID , data = train3)
+rpart.plot(tree_model3,box.palette="Blues")
+```
+
+```{r}
+summary(tree_model3)
+```
+```{r}
+predictions <- predict(tree_model1, newdata = test1, type = "class")
+predictions2 <- predict(tree_model2, newdata = test2, type = "class")
+predictions3 <- predict(tree_model3, newdata = test3, type = "class")
+```
+
+```{r}
+conf_matrix <- table(predictions, test1$Region)
+conf_matrix
+```
+
+```{r}
+conf_matrix2 <- table(predictions2, test2$Churn)
+conf_matrix2
+```
+
+```{r}
+conf_matrix3 <- table(predictions3, test3$DrugID)
+conf_matrix3
+```
+
+```{r}
+head(predictions, 10)
+head(predictions2, 10)
+head(predictions3, 10)
+```
+
+```{r}
+library(rpart)
+```
+
+
+```{r}
+library(randomForest)
+```
+
+```{r}
+#Multiple Independent Features
+rf_model1 <- randomForest(Region ~ AvgTemperature + Day + Month + Year, data = train1, mtry=3,ntree=100)
+
+
+```
+```{r}
+# Convert character variables to factor variables
+train2$gender <- as.factor(train2$gender)
+train2$InternetService <- as.factor(train2$InternetService)
+train2$Contract <- as.factor(train2$Contract)
+
+```
+
+#
+```{r}
+#Multiple Independent Features
+randomForest(Churn~MonthlyCharges+tenure+gender+InternetService+Contract, data= train2, mtry=3,ntree=100) -> mod_forest2
+```
+
+
+```{r}
+#Multiple Independent Features
+randomForest(DrugID~Gender+Age+PatientID, data= train3, mtry=3,ntree=100) -> mod_forest3
+```
+
+
+```{r}
+#Single Independent Features
+
+model_forest1 <- randomForest(Region ~ AvgTemperature , data = train1, mtry=1,ntree=100)
+
+
+```
+
+```{r}
+#Single Independent Features
+model_forest2 <- randomForest(Churn ~ MonthlyCharges , data = train2, mtry=1,ntree=100)
+```
+
+
+```{r}
+#Single Independent Features
+model_forest3 <- randomForest(DrugID ~ Age , data = train3, mtry=1,ntree=100)
+```
+
+
+
+```{r}
+importance(model_forest1)
+```
+```{r}
+importance(model_forest2)
+```
+
+
+```{r}
+importance(model_forest3)
+```
+
+
+```{r}
+importance(rf_model1)
+```
+
+
+```{r}
+importance(mod_forest2)
+```
+
+
+```{r}
+importance(mod_forest2)
+```
+
+```{r}
+varImpPlot(rf_model1)
+```
+
+```{r}
+varImpPlot(mod_forest2)
+```
+
+```{r}
+varImpPlot(mod_forest3)
+```
+
