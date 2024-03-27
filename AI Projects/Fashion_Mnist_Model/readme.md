@@ -10,22 +10,28 @@ apparel category amongst 10 categories on which the dataset is benchmarked.
 ● Visualize different samples from the dataset.
 
 ● Normalize the pixel values of the images to be between 0 and 1 for better
+
 ### model performance.
-● Convert the output labels to categorical format for classification.
+● Converted the output labels to categorical format for classification.
 
 ### Model Building and Training:
 
-Construct a Neural Network using TensorFlow and Keras.
-● The model should consist of multiple dense layers with a significant number of
+Constructed a Neural Network using TensorFlow and Keras.
+
+● The model consist of multiple dense layers with a significant number of
 neurons.
-● Utilize ReLU activation for hidden layers and softmax activation for the output
+
+● Utilized ReLU activation for hidden layers and softmax activation for the output
 layer.
-● Train the model on the prepared dataset.
+
+● Trained the model on the prepared dataset.
+
 ● Implement callbacks, particularly TensorBoard, to visualize the training process.
 
 ## Model Evaluation and Analysis:
-● Evaluate the model's performance using a validation set.
 
-● Analyze the training process with the help of TensorBoard.
+● Evaluated the model's performance using a validation set.
 
-● Save the trained model, including its architecture and learned weights.
+● Analyzed the training process with the help of TensorBoard.
+
+● Saved the trained model, including its architecture and learned weights.
