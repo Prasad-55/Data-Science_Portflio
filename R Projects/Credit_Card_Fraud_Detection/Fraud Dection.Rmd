@@ -1,0 +1,370 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r}
+credit_card <- read.csv("C:/PRASAD wORKS/Python Works/New folder/Python- material/python Datasets/creditcard.csv")
+```
+
+
+
+```{r}
+View(credit_card)
+```
+
+```{r}
+#Convert class to a factor variable
+credit_card$Class <- factor(credit_card$Class, levels = c(0,1))
+```
+
+```{r}
+#Get the summary of the data
+summary(credit_card)
+```
+
+```{r}
+#Count the missing values
+sum(is.na(credit_card))
+```
+
+```{r}
+#Get the distribution of fraud and legit transactions in the dataset
+table(credit_card$Class)
+```
+
+```{r}
+#Get the percentage of fraud and legit transactions in the dataset
+prop.table(table(credit_card$Class))
+```
+
+#Pie chart of credit card transactions
+
+```{r}
+labels <- c("legit","fraud")
+labels <- paste(labels, round(100*prop.table(table(credit_card$Class)),2))
+labels <- paste0(labels,"%")
+```
+
+```{r}
+pie(table(credit_card$Class),labels, col = c("orange","red"),main = "Pie Chart of Credit Card Transactions")
+```
+
+
+```{r}
+#No model predictions
+predictions <- rep.int(0, nrow(credit_card))
+predictions <- factor(predictions, levels = c(0,1))
+```
+
+```{r}
+library(caret)
+```
+```{r}
+library(ggplot2)
+
+```
+
+```{r}
+credit_card$Class <- factor(credit_card$Class, levels = c(0,1))
+```
+
+
+```{r}
+confusionMatrix(data = predictions, reference = credit_card$Class)
+```
+```{r}
+library(dplyr)
+```
+```{r}
+set.seed(1)
+credit_card <- credit_card %>% sample_frac(0.1)
+```
+
+```{r}
+table(credit_card$Class)
+```
+```{r}
+ggplot(data = credit_card, aes(x= V1, y= V2, col = Class )) + 
+  geom_point() +
+  theme_bw() +
+  scale_color_manual(values = c('dodgerblue2','red'))
+```
+
+```{r}
+library(caTools)
+```
+
+```{r}
+set.seed(123)
+```
+
+```{r}
+data_sample = sample.split(credit_card$Class,SplitRatio = 0.80)
+```
+
+```{r}
+train_data = subset(credit_card, data_sample==T)
+test_data = subset(credit_card, data_sample==F)
+```
+
+```{r}
+dim(train_data)
+dim(test_data)
+```
+
+```{r}
+#Random Over Sampling(ROS)
+```
+
+
+
+```{r}
+table(train_data$Class)
+```
+
+```{r}
+n_legit <- 22750
+new_frac_legit <- 0.50
+
+```
+
+
+```{r}
+new_n_total = n_legit/new_frac_legit
+new_n_total
+```
+
+```{r}
+library(ROSE)
+oversamling_result <- ovun.sample(Class~.,
+                                  data = train_data,
+                                  method = "over",
+                                  N = new_n_total,
+                                  seed = 2019)
+```
+
+
+```{r}
+View(oversamling_result)
+```
+
+
+```{r}
+oversampled_credit <- oversamling_result$data
+```
+
+
+```{r}
+table(oversampled_credit$Class)
+```
+
+
+```{r}
+View(oversampled_credit)
+```
+
+
+```{r}
+ggplot(data = oversampled_credit, aes(x = V1, y = V2, col = Class)) + 
+  geom_point() +
+  theme_bw() +
+  scale_color_manual(values = c('dodgerblue2','red'))
+```
+
+
+```{r}
+#Random Under-Sampling
+```
+
+
+```{r}
+table(train_data$Class)
+```
+```{r}
+n_fraud <- 35
+new_frac_fraud <- 0.50
+```
+
+
+```{r}
+new_n_total <- n_fraud/new_frac_fraud
+```
+
+```{r}
+undersampling_result <- ovun.sample(Class~.,
+                                    data= train_data,
+                                    method = "under",
+                                    N = new_n_total,
+                                    seed = 2019)
+```
+
+```{r}
+View(undersampling_result)
+```
+
+```{r}
+undersampling_credit <- undersampling_result$data
+```
+
+```{r}
+View(undersampling_credit)
+```
+
+```{r}
+table(undersampling_credit$Class)
+```
+
+```{r}
+ggplot(data=undersampling_credit, aes(x=V1, y=V2, col=Class)) +
+  geom_point() +
+  theme_bw() +
+  scale_color_manual(values = c("dodgerblue2","red"))
+```
+#- - - - - - -  - -- -  -- --- -- - - - - -- - - - -  - 
+
+```{r}
+#Ros and Rus
+```
+
+
+```{r}
+n_new <- nrow(train_data)
+fraction_fraud_new <- 0.50
+
+```
+
+```{r}
+sampling_result <- ovun.sample(Class~.,
+                               data = train_data,
+                               method = "both",
+                               N = n_new,
+                               p = fraction_fraud_new,
+                               seed =2019)
+```
+
+```{r}
+sampled_credit <- sampling_result$data
+```
+
+```{r}
+table(sampled_credit$Class)
+```
+
+```{r}
+prop.table(table(sampled_credit$Class))
+```
+
+```{r}
+ggplot(data = sampled_credit, aes(x = V1, y = V2, col = Class)) +
+  geom_point(position = position_jitter(width = 0.2)) +
+  theme_bw() +
+  scale_color_manual(values = c('dodgerblue2','red'))
+```
+#Using SMOTE to balance the dataset
+```{r}
+library(smotefamily)
+```
+
+```{r}
+table(train_data$Class)
+```
+```{r}
+#Set the number of fraud and legitimate cases, and desired percentage of legitimate cases
+n0 <-22750
+n1 <- 35
+r0 <- 0.6
+```
+
+```{r}
+#Calculate the value for the dup_size parameter of SMOTE
+ntimes <- ((1 - r0)/r0)* (n0/n1) - 1
+```
+
+```{r}
+smote_output = SMOTE(X= train_data[ , -c(1, 31)],
+                     target = train_data$Class,
+                     K = 5,
+                     dup_size = ntimes)
+```
+
+```{r}
+credit_smote <- smote_output$data
+```
+
+```{r}
+#Changing Column name
+colnames(credit_smote)[30] <- "Class"
+```
+
+```{r}
+View(smote_output)
+```
+
+```{r}
+prop.table(table(credit_smote$Class))
+```
+```{r}
+#Class distribution for over-sampling dataset using SMOTE
+ggplot(credit_smote, aes(x = V1, y = V2, color =Class)) +
+  geom_point() +
+  scale_color_manual(values = c('dodgerblue2','red'))
+```
+```{r}
+library(rpart)
+library(rpart.plot)
+```
+
+```{r} 
+#Class is our dependent variable and . is all other variable in dataframe is independent
+CART_model <- rpart(Class~.,credit_smote)
+```
+
+```{r}
+rpart.plot(CART_model, extra = 0, type = 5, tweak = 1.2)
+```
+
+
+```{r}
+predict_val <- predict(CART_model, test_data, type = 'class')
+```
+
+
+```{r}
+library(caret)
+confusionMatrix(predict_val, test_data$Class)
+```
+
+```{r}
+predicted_val <- predict(CART_model, credit_card[-1], type = 'class')
+confusionMatrix(predicted_val,credit_card$Class)
+```
+```{r}
+#Decision tree without SMOTE
+
+CART_model <- rpart(Class~., train_data[,-1])
+
+rpart.plot(CART_model, extra=0, type = 5, tweak = 1.2)
+
+
+```
+
+```{r}
+#Predict fraud cases
+predicted_val <- predict(CART_model, test_data[,-1], type = 'class')
+```
+
+```{r}
+library(caret)
+confusionMatrix(predicted_val, test_data$Class)
+```
+```{r}
+predicted_val <- predict(CART_model, credit_card[-1], type = 'class')
+confusionMatrix(predicted_val, credit_card$Class)
+
+```
+
+
+
+
