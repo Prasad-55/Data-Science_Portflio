@@ -3,15 +3,15 @@ Fashion MNIST is a dataset of Zalando's article images, consisting of 60,000 tra
 examples and 10,000 test examples. Each example is a 28x28 grayscale image,
 associated with a label from 10 classes. The task is to classify these images into an
 apparel category amongst 10 categories on which the dataset is benchmarked.
-## Objectives:
+## Steps Involved:
 ### Data Preparation and Visualization:
-● Load the Fashion MNIST dataset.
+● Loaded the Fashion MNIST dataset.
 
-● Visualize different samples from the dataset.
+● Visualized different samples from the dataset.
 
-● Normalize the pixel values of the images to be between 0 and 1 for better
+● Normalized the pixel values of the images to be between 0 and 1 for better
 
-### model performance.
+### Model performance.
 ● Converted the output labels to categorical format for classification.
 
 ### Model Building and Training:
