@@ -1,0 +1,231 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+```{r}
+pharma = read.csv("C:/PRASAD wORKS/Python Works/Final Intellipaat - Submission/R/Assignments/Pharmacovigilance_audit_Data.csv")
+
+churn = read.csv("C:/PRASAD wORKS/Python Works/Final Intellipaat - Submission/R/Assignments/customer_churn.csv")
+
+temperature = read.csv("C:/PRASAD wORKS/Python Works/Final Intellipaat - Submission/R/Assignments/city_temperature.csv")
+```
+
+
+```{r}
+independent_temperature <- "AvgTemperature" 
+dependent_temperature <-"Region"
+
+independent_churn <- "MonthlyCharges"
+dependent_churn <- "Churn"
+
+independent_pharma <- "Age" 
+dependent_pharma <- "DrugID"
+```
+
+```{r}
+library(caTools)
+library(MASS)
+library(tree)
+library(rpart)
+library(rpart.plot)
+```
+
+
+```{r}
+sample.split(temperature$Region, SplitRatio = 0.70) -> split_tag1
+
+sample.split(churn$Churn, SplitRatio = 0.80) -> split_tag2
+
+sample.split(pharma$DrugID, SplitRatio = 0.75) -> split_tag3
+```
+
+
+```{r}
+train1 = subset(temperature, split_tag1==T)
+test1 = subset(temperature, split_tag1==F)
+```
+
+```{r}
+train2 = subset(churn, split_tag2==T)
+test2 = subset(churn, split_tag2==F)
+```
+
+```{r}
+train3 = subset(pharma, split_tag3==T)
+test3 = subset(pharma, split_tag3==F)
+```
+
+
+```{r}
+#Decision Tree Model
+tree_model1 <- rpart(Region ~ AvgTemperature, data = train1)
+rpart.plot(tree_model1)
+
+```
+
+```{r}
+predictions <- predict(tree_model1, newdata = test1, type = "class")
+
+# Calculate Misclassification Error Rate
+misclassification_error <- mean(predictions != test1$Region)
+cat("Misclassification Error Rate:", misclassification_error, "\n")
+```
+
+```{r}
+#Decision Tree Model 2
+tree_model2 <- rpart(Churn~MonthlyCharges, data = train2, method = "class")
+predictions2 <- predict(tree_model2, newdata = test2, type = "class")
+
+
+```
+
+```{r}
+misclassification_error <- mean(predictions2 != test2$Churn)
+cat("Misclassification Error Rate:", misclassification_error, "\n")
+```
+```{r}
+#Decision Tree Model 3
+tree_model3 <- rpart(DrugID~Age, data = train3, method = "class")
+predictions3 <- predict(tree_model3, newdata = test3, type = "class")
+misclassification_error <- mean(predictions3 != test3$DrugID)
+cat("Misclassification Error Rate:", misclassification_error, "\n")
+```
+```{r}
+head(predictions, 10)
+```
+
+```{r}
+conf_matrix <- table(predictions, test1$Region)
+conf_matrix
+```
+
+```{r}
+head(predictions2, 10)
+head(predictions3, 10)
+```
+
+```{r}
+conf_matrix2 <- table(predictions2, test2$Churn)
+conf_matrix2
+```
+
+```{r}
+#Accuracy of model churn
+(1035+0)/(1035+0+374+0) -> acc2
+acc2
+```
+
+
+```{r}
+conf_matrix3 <- table(predictions3, test3$DrugID)
+conf_matrix3
+```
+
+```{r}
+#Accuracy of model Pharma
+(342+0+0)/(342+172+36+0+0+0+0+0+0) -> acc3
+acc3
+```
+
+```{r}
+pharma = read.csv("C:/PRASAD wORKS/Python Works/Final Intellipaat - Submission/R/Assignments/Pharmacovigilance_audit_Data.csv", stringsAsFactors = TRUE)
+
+churn = read.csv("C:/PRASAD wORKS/Python Works/Final Intellipaat - Submission/R/Assignments/customer_churn.csv", stringsAsFactors = TRUE)
+
+temperature = read.csv("C:/PRASAD wORKS/Python Works/Final Intellipaat - Submission/R/Assignments/city_temperature.csv", stringsAsFactors = TRUE)
+```
+
+
+```{r}
+library(caTools)
+library(MASS)
+```
+
+```{r}
+sample.split(temperature$Region, SplitRatio = 0.70) -> split_tag1
+
+sample.split(churn$Churn, SplitRatio = 0.80) -> split_tag2
+
+sample.split(pharma$DrugID, SplitRatio = 0.75) -> split_tag3
+
+```
+
+
+```{r}
+train1 = subset(temperature, split_tag1==T)
+test1 = subset(temperature, split_tag1==F)
+```
+
+```{r}
+train2 = subset(churn, split_tag2==T)
+test2 = subset(churn, split_tag2==F)
+```
+
+```{r}
+train3 = subset(pharma, split_tag3==T)
+test3 = subset(pharma, split_tag3==F)
+```
+
+```{r}
+unique(temperature$Region)
+unique(churn$Churn)
+```
+```{r}
+library(nnet)
+```
+
+
+
+```{r}
+model1 <- glm(Region ~ AvgTemperature + Day + Month + Year, data = train1, family = "binomial")
+
+```
+
+```{r}
+summary(model1)
+```
+
+
+```{r}
+logit_model_churn <- glm(Churn ~ tenure + StreamingTV + MonthlyCharges + TotalCharges, 
+                          data = train2, family = "binomial")
+
+
+summary(logit_model_churn)
+```
+
+
+```{r}
+logit_model_pharma <- glm(DrugID ~ Gender + Age + PatientID, 
+                          data = train3, family = "binomial")
+
+
+summary(logit_model_pharma)
+```
+
+
+```{r}
+```
+
+
+```{r}
+```
+
+
+```{r}
+```
+
+
+```{r}
+```
+
+
+```{r}
+```
+
+
+```{r}
+```
+
+```
