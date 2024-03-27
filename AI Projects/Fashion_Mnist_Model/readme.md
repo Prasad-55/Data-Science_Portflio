@@ -6,11 +6,15 @@ apparel category amongst 10 categories on which the dataset is benchmarked.
 ## Objectives:
 ### Data Preparation and Visualization:
 ● Load the Fashion MNIST dataset.
+
 ● Visualize different samples from the dataset.
+
 ● Normalize the pixel values of the images to be between 0 and 1 for better
 ### model performance.
 ● Convert the output labels to categorical format for classification.
-Model Building and Training:
+
+### Model Building and Training:
+
 Construct a Neural Network using TensorFlow and Keras.
 ● The model should consist of multiple dense layers with a significant number of
 neurons.
@@ -18,6 +22,7 @@ neurons.
 layer.
 ● Train the model on the prepared dataset.
 ● Implement callbacks, particularly TensorBoard, to visualize the training process.
+
 ## Model Evaluation and Analysis:
 ● Evaluate the model's performance using a validation set.
 ● Analyze the training process with the help of TensorBoard.
