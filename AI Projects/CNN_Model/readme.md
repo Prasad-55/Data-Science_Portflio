@@ -1,6 +1,6 @@
 # Overview
 
-CNN_MOdel Using Dog_Cat_Dataset
+CNN_Model Using Dog_Cat_Dataset
 
 ## Tools Required
 
