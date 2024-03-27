@@ -25,5 +25,7 @@ layer.
 
 ## Model Evaluation and Analysis:
 ● Evaluate the model's performance using a validation set.
+
 ● Analyze the training process with the help of TensorBoard.
+
 ● Save the trained model, including its architecture and learned weights.
