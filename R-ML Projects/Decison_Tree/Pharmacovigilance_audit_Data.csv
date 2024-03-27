@@ -1,0 +1,2202 @@
+LocationID,Issues,DrugID,Gender,Age,PatientID
+Location1,unclear dose,DRUG1,M,8,3
+Location1,unclear dose,DRUG1,M,25,7
+Location1,unclear dose,DRUG1,M,6,10
+Location1,unclear dose,DRUG1,M,21,1
+Location1,unclear dose,DRUG1,M,3,1
+Location1,unclear dose,DRUG1,M,10,5
+Location1,unclear dose,DRUG1,M,3,9
+Location1,unclear dose,DRUG1,M,16,3
+Location1,unclear dose,DRUG1,M,15,6
+Location1,unclear dose,DRUG1,F,24,7
+Location1,unclear dose,DRUG1,M,21,6
+Location1,unclear dose,DRUG1,M,5,2
+Location1,unclear dose,DRUG1,M,8,2
+Location1,unclear dose,DRUG1,M,6,4
+Location1,unclear dose,DRUG1,M,8,10
+Location1,unclear dose,DRUG1,M,5,7
+Location1,unclear dose,DRUG1,M,6,6
+Location1,unclear dose,DRUG1,F,7,7
+Location1,unclear dose,DRUG1,M,5,3
+Location1,unclear dose,DRUG1,M,10,4
+Location1,unclear dose,DRUG1,M,15,6
+Location1,unclear dose,DRUG1,M,4,6
+Location1,unclear dose,DRUG1,M,25,8
+Location1,unclear dose,DRUG1,M,12,2
+Location1,unclear dose,DRUG1,M,8,10
+Location1,unclear dose,DRUG1,M,18,4
+Location2,unclear route,DRUG2,M,20,6
+Location2,unclear route,DRUG2,M,6,9
+Location3,Medication history documenting error,DRUG1,M,2,8
+Location4,Medication history documenting error,DRUG1,F,2,8
+Location2,unclear route,DRUG2,M,5,4
+Location3,Medication history documenting error,DRUG1,M,2,4
+Location4,Medication history documenting error,DRUG1,M,6,2
+Location2,unclear route,DRUG2,M,2,3
+Location3,Medication history documenting error,DRUG1,M,15,9
+Location4,Medication history documenting error,DRUG1,M,6,4
+Location2,unclear route,DRUG2,M,12,6
+Location3,Medication history documenting error,DRUG1,M,16,7
+Location4,Medication history documenting error,DRUG1,M,8,8
+Location2,unclear route,DRUG2,M,12,4
+Location3,Medication history documenting error,DRUG1,M,25,1
+Location4,Medication history documenting error,DRUG1,M,15,5
+Location2,unclear route,DRUG2,M,25,8
+Location3,Medication history documenting error,DRUG1,M,4,9
+Location4,Medication history documenting error,DRUG1,M,5,9
+Location2,unclear route,DRUG2,M,2,8
+Location3,Medication history documenting error,DRUG1,M,2,4
+Location4,Medication history documenting error,DRUG1,M,6,8
+Location2,unclear route,DRUG2,M,10,10
+Location3,Medication history documenting error,DRUG1,M,15,2
+Location4,Medication history documenting error,DRUG1,M,3,3
+Location2,unclear route,DRUG2,M,12,10
+Location3,Medication history documenting error,DRUG1,M,4,1
+Location4,Medication history documenting error,DRUG1,F,20,5
+Location2,unclear route,DRUG2,M,12,5
+Location3,Medication history documenting error,DRUG1,M,20,9
+Location4,Medication history documenting error,DRUG1,M,5,8
+Location2,unclear route,DRUG2,F,20,1
+Location4,Medication history documenting error,DRUG1,M,5,10
+Location2,unclear route,DRUG2,M,2,10
+Location3,Medication history documenting error,DRUG1,M,6,6
+Location4,Medication history documenting error,DRUG1,M,2,5
+Location2,unclear route,DRUG2,M,8,6
+Location3,Medication history documenting error,DRUG1,M,9,8
+Location4,Medication history documenting error,DRUG1,M,15,10
+Location2,unclear route,DRUG2,M,12,9
+Location3,Medication history documenting error,DRUG1,M,8,7
+Location4,Medication history documenting error,DRUG1,M,20,6
+Location2,unclear route,DRUG2,M,16,8
+Location3,Medication history documenting error,DRUG1,M,20,9
+Location4,Medication history documenting error,DRUG1,M,10,5
+Location2,unclear route,DRUG2,M,20,4
+Location4,Medication history documenting error,DRUG1,F,5,4
+Location2,unclear route,DRUG2,M,1,9
+Location4,Medication history documenting error,DRUG1,M,10,8
+Location4,Medication history documenting error,DRUG1,M,3,5
+Location2,unclear route,DRUG2,M,3,1
+Location3,Medication history documenting error,DRUG1,M,4,6
+Location4,Medication history documenting error,DRUG1,M,12,7
+Location2,unclear route,DRUG2,M,4,2
+Location3,Medication history documenting error,DRUG1,M,25,9
+Location4,Medication history documenting error,DRUG1,M,5,8
+Location2,unclear route,DRUG2,M,10,4
+Location2,Medication history documenting error,DRUG2,M,15,7
+Location2,Medication history documenting error,DRUG2,M,6,3
+Location2,Medication history documenting error,DRUG2,M,28,7
+Location2,Medication history documenting error,DRUG2,F,4,8
+Location2,Medication history documenting error,DRUG2,M,8,3
+Location2,Medication history documenting error,DRUG2,M,12,1
+Location2,Medication history documenting error,DRUG2,M,16,4
+Location2,Medication history documenting error,DRUG2,F,20,1
+Location2,Medication history documenting error,DRUG2,F,5,2
+Location2,Medication history documenting error,DRUG2,F,2,6
+Location2,Medication history documenting error,DRUG2,M,3,10
+Location2,Medication history documenting error,DRUG2,M,20,1
+Location2,Medication history documenting error,DRUG2,F,3,8
+Location2,Medication history documenting error,DRUG2,M,2,7
+Location2,Medication history documenting error,DRUG2,F,6,5
+Location2,Medication history documenting error,DRUG2,M,16,6
+Location2,Medication history documenting error,DRUG2,M,5,5
+Location2,Medication history documenting error,DRUG2,F,1,1
+Location2,Medication history documenting error,DRUG2,F,2,8
+Location2,Medication history documenting error,DRUG2,M,3,4
+Location2,Medication history documenting error,DRUG2,F,12,2
+Location2,Medication history documenting error,DRUG2,M,25,9
+Location5,unclear route,DRUG1,M,4,9
+Location5,unclear route,DRUG1,M,6,5
+Location5,unclear route,DRUG1,F,4,1
+Location5,unclear route,DRUG1,M,5,4
+Location5,unclear route,DRUG1,M,6,9
+Location5,unclear route,DRUG1,M,2,5
+Location5,unclear route,DRUG1,M,10,9
+Location5,unclear route,DRUG1,M,12,7
+Location5,unclear route,DRUG1,M,12,3
+Location5,unclear route,DRUG1,M,5,9
+Location5,unclear route,DRUG1,M,12,6
+Location5,unclear route,DRUG1,M,3,1
+Location5,unclear route,DRUG1,M,8,10
+Location5,unclear route,DRUG1,M,12,4
+Location5,unclear route,DRUG1,M,20,1
+Location5,unclear route,DRUG1,M,10,4
+Location5,unclear route,DRUG1,M,12,9
+Location5,unclear route,DRUG1,M,8,7
+Location5,unclear route,DRUG1,M,20,1
+Location5,unclear route,DRUG1,M,25,7
+Location5,unclear route,DRUG1,M,18,10
+Location5,unclear route,DRUG3,M,12,2
+Location4,Medication history documenting error,DRUG1,M,25,2
+Location5,unclear route,DRUG3,M,25,8
+Location5,unclear route,DRUG2,M,5,1
+Location5,unclear route,DRUG1,M,5,10
+Location4,Medication history documenting error,DRUG1,M,30,4
+Location5,unclear route,DRUG3,M,24,4
+Location5,unclear route,DRUG2,M,6,5
+Location5,unclear route,DRUG1,M,30,3
+Location1,Medication history documenting error,DRUG1,M,4,8
+Location4,Medication history documenting error,DRUG1,M,2,7
+Location5,unclear route,DRUG3,F,1,7
+Location5,unclear route,DRUG1,M,4,4
+Location5,unclear route,DRUG2,M,1,3
+Location1,Medication history documenting error,DRUG1,M,8,4
+Location4,Medication history documenting error,DRUG1,M,10,7
+Location5,unclear route,DRUG3,M,10,8
+Location5,unclear route,DRUG2,M,4,3
+Location1,Medication history documenting error,DRUG1,M,9,6
+Location4,Medication history documenting error,DRUG1,M,9,6
+Location5,unclear route,DRUG3,M,9,10
+Location5,unclear route,DRUG2,F,15,5
+Location1,Medication history documenting error,DRUG1,M,12,2
+Location4,Medication history documenting error,DRUG1,M,8,10
+Location5,unclear route,DRUG3,M,8,8
+Location5,unclear route,DRUG2,M,16,1
+Location4,Medication history documenting error,DRUG1,M,25,2
+Location5,unclear route,DRUG3,M,15,5
+Location5,unclear route,DRUG2,F,25,2
+Location4,Medication history documenting error,DRUG1,M,12,6
+Location5,unclear route,DRUG3,M,24,5
+Location5,unclear route,DRUG2,M,6,4
+Location1,Medication history documenting error,DRUG1,F,1,3
+Location4,Medication history documenting error,DRUG1,F,2,8
+Location5,unclear route,DRUG3,M,2,4
+Location5,unclear route,DRUG2,M,4,8
+Location1,Medication history documenting error,DRUG1,M,2,5
+Location4,Medication history documenting error,DRUG1,M,4,1
+Location5,unclear route,DRUG3,M,10,10
+Location5,unclear route,DRUG2,M,10,3
+Location1,Medication history documenting error,DRUG1,F,15,8
+Location4,Medication history documenting error,DRUG1,M,3,4
+Location5,unclear route,DRUG3,M,3,9
+Location5,unclear route,DRUG2,M,6,10
+Location5,unclear route,DRUG2,F,4,1
+Location4,Medication history documenting error,DRUG1,M,5,3
+Location5,unclear route,DRUG3,M,20,2
+Location5,unclear route,DRUG2,M,20,6
+Location4,Medication history documenting error,DRUG1,M,30,2
+Location5,unclear route,DRUG3,M,18,3
+Location5,unclear route,DRUG2,M,6,2
+Location1,Medication history documenting error,DRUG1,F,2,9
+Location4,Medication history documenting error,DRUG1,M,3,4
+Location5,unclear route,DRUG3,M,4,3
+Location5,unclear route,DRUG2,M,4,1
+Location1,Medication history documenting error,DRUG1,M,6,2
+Location4,Medication history documenting error,DRUG1,M,6,9
+Location5,unclear route,DRUG3,M,10,10
+Location5,unclear route,DRUG2,F,2,9
+Location1,Medication history documenting error,DRUG1,M,3,9
+Location4,Medication history documenting error,DRUG1,M,12,9
+Location5,unclear route,DRUG3,M,9,6
+Location5,unclear route,DRUG2,M,12,8
+Location1,Medication history documenting error,DRUG1,M,12,3
+Location4,Medication history documenting error,DRUG1,M,16,2
+Location5,unclear route,DRUG3,M,16,6
+Location5,unclear route,DRUG2,M,12,6
+Location1,Medication history documenting error,DRUG1,M,25,1
+Location4,Medication history documenting error,DRUG1,M,25,10
+Location5,unclear route,DRUG3,M,25,4
+Location5,unclear route,DRUG2,M,25,4
+Location4,Medication history documenting error,DRUG1,M,24,3
+Location5,unclear route,DRUG3,F,6,4
+Location5,unclear route,DRUG2,F,6,4
+Location4,Medication history documenting error,DRUG1,F,1,9
+Location1,Medication history documenting error,DRUG1,F,2,10
+Location4,Medication history documenting error,DRUG1,M,10,6
+Location5,unclear route,DRUG3,F,6,10
+Location5,unclear route,DRUG2,F,4,2
+Location4,Medication history documenting error,DRUG1,M,12,5
+Location5,unclear route,DRUG2,M,3,1
+Location1,Medication history documenting error,DRUG1,F,12,8
+Location4,Medication history documenting error,DRUG1,F,16,8
+Location5,unclear route,DRUG3,M,12,3
+Location5,unclear route,DRUG2,M,4,1
+Location1,Medication history documenting error,DRUG1,M,10,6
+Location4,Medication history documenting error,DRUG1,M,20,9
+Location5,unclear route,DRUG3,M,25,1
+Location5,unclear route,DRUG2,F,5,10
+Location4,Medication history documenting error,DRUG1,M,6,2
+Location5,unclear route,DRUG3,M,30,4
+Location5,unclear route,DRUG2,M,24,3
+Location1,unclear dose,DRUG1,M,7,8
+Location3,Medication history documenting error,DRUG1,M,2,2
+Location3,Medication history documenting error,DRUG1,M,6,7
+Location3,Medication history documenting error,DRUG1,M,12,1
+Location3,Medication history documenting error,DRUG1,F,25,7
+Location3,Medication history documenting error,DRUG1,M,18,6
+Location3,Medication history documenting error,DRUG1,M,2,1
+Location3,Medication history documenting error,DRUG1,M,2,2
+Location3,Medication history documenting error,DRUG1,M,9,2
+Location3,Medication history documenting error,DRUG1,F,20,5
+Location3,Medication history documenting error,DRUG1,M,20,9
+Location3,Medication history documenting error,DRUG1,M,6,4
+Location3,Medication history documenting error,DRUG1,M,4,10
+Location3,Medication history documenting error,DRUG1,M,10,7
+Location3,Medication history documenting error,DRUG1,M,9,2
+Location3,Medication history documenting error,DRUG1,M,4,3
+Location3,Medication history documenting error,DRUG1,M,10,6
+Location3,Medication history documenting error,DRUG1,M,18,1
+Location3,Medication history documenting error,DRUG1,F,4,8
+Location3,Medication history documenting error,DRUG1,M,10,4
+Location3,Medication history documenting error,DRUG1,M,12,4
+Location3,Medication history documenting error,DRUG1,M,20,10
+Location3,Medication history documenting error,DRUG1,M,10,6
+Location3,Medication history documenting error,DRUG1,M,18,8
+Location6,unclear route,DRUG1,M,4,1
+Location6,unclear route,DRUG1,M,12,6
+Location6,unclear route,DRUG1,M,20,8
+Location6,unclear route,DRUG1,M,20,6
+Location6,unclear route,DRUG1,M,5,7
+Location6,unclear route,DRUG1,M,4,6
+Location6,unclear route,DRUG1,M,6,9
+Location6,unclear route,DRUG1,F,12,6
+Location6,unclear route,DRUG1,M,5,1
+Location6,unclear route,DRUG1,M,2,3
+Location6,unclear route,DRUG1,M,8,3
+Location6,unclear route,DRUG1,M,9,1
+Location6,unclear route,DRUG1,M,8,8
+Location6,unclear route,DRUG1,M,20,7
+Location6,unclear route,DRUG1,F,4,1
+Location6,unclear route,DRUG1,M,4,3
+Location6,unclear route,DRUG1,M,10,10
+Location6,unclear route,DRUG1,M,25,6
+Location6,unclear route,DRUG1,M,1,9
+Location1,Medication history documenting error,DRUG1,M,3,5
+Location4,Medication history documenting error,DRUG1,M,3,5
+Location1,Medication history documenting error,DRUG1,M,2,9
+Location4,Medication history documenting error,DRUG1,M,4,4
+Location1,Medication history documenting error,DRUG1,M,12,7
+Location4,Medication history documenting error,DRUG1,M,9,6
+Location1,Medication history documenting error,DRUG1,M,16,6
+Location4,Medication history documenting error,DRUG1,M,4,8
+Location1,Medication history documenting error,DRUG1,F,5,3
+Location4,Medication history documenting error,DRUG1,M,5,2
+Location1,Medication history documenting error,DRUG1,M,2,1
+Location4,Medication history documenting error,DRUG1,M,1,5
+Location1,Medication history documenting error,DRUG1,M,10,5
+Location4,Medication history documenting error,DRUG1,M,10,1
+Location1,Medication history documenting error,DRUG1,M,12,6
+Location4,Medication history documenting error,DRUG1,M,3,6
+Location1,Medication history documenting error,DRUG1,F,12,7
+Location4,Medication history documenting error,DRUG1,M,20,10
+Location1,Medication history documenting error,DRUG1,F,20,5
+Location4,Medication history documenting error,DRUG1,M,20,10
+Location1,Medication history documenting error,DRUG1,F,1,2
+Location4,Medication history documenting error,DRUG1,M,4,8
+Location1,Medication history documenting error,DRUG1,M,10,10
+Location4,Medication history documenting error,DRUG1,M,8,9
+Location1,Medication history documenting error,DRUG1,M,3,9
+Location4,Medication history documenting error,DRUG1,M,15,7
+Location1,Medication history documenting error,DRUG1,M,16,3
+Location4,Medication history documenting error,DRUG1,M,4,3
+Location1,Medication history documenting error,DRUG1,M,20,3
+Location4,Medication history documenting error,DRUG1,M,25,2
+Location1,Medication history documenting error,DRUG1,F,3,7
+Location4,Medication history documenting error,DRUG1,M,3,1
+Location1,Medication history documenting error,DRUG1,M,8,9
+Location4,Medication history documenting error,DRUG1,M,4,8
+Location1,Medication history documenting error,DRUG1,F,12,9
+Location4,Medication history documenting error,DRUG1,F,6,3
+Location1,Medication history documenting error,DRUG1,M,4,6
+Location4,Medication history documenting error,DRUG1,M,12,6
+Location1,Medication history documenting error,DRUG1,F,15,8
+Location4,Medication history documenting error,DRUG1,M,25,4
+Location3,Medication history documenting error,DRUG1,M,30,9
+Location3,Medication history documenting error,DRUG1,M,14,3
+Location3,Medication history documenting error,DRUG1,M,2,5
+Location3,Medication history documenting error,DRUG1,M,8,6
+Location3,Medication history documenting error,DRUG1,M,3,9
+Location3,Medication history documenting error,DRUG1,M,16,9
+Location3,Medication history documenting error,DRUG1,M,5,1
+Location3,Medication history documenting error,DRUG1,M,6,6
+Location3,Medication history documenting error,DRUG1,M,14,4
+Location3,Medication history documenting error,DRUG1,M,4,3
+Location3,Medication history documenting error,DRUG1,M,2,7
+Location3,Medication history documenting error,DRUG1,M,12,10
+Location3,Medication history documenting error,DRUG1,F,10,8
+Location3,Medication history documenting error,DRUG1,M,18,1
+Location3,Medication history documenting error,DRUG1,M,7,3
+Location3,Medication history documenting error,DRUG1,M,4,3
+Location3,Medication history documenting error,DRUG1,M,8,3
+Location3,Medication history documenting error,DRUG1,M,3,10
+Location3,Medication history documenting error,DRUG1,M,8,5
+Location3,Medication history documenting error,DRUG1,M,25,8
+Location3,Medication history documenting error,DRUG1,M,12,2
+Location3,Medication history documenting error,DRUG1,M,7,10
+Location3,Medication history documenting error,DRUG1,F,6,9
+Location3,Medication history documenting error,DRUG1,F,4,6
+Location3,Medication history documenting error,DRUG1,M,25,3
+Location3,Medication history documenting error,DRUG1,F,30,5
+Location2,unclear dose,DRUG2,M,16,10
+Location2,unclear route,DRUG2,M,12,5
+Location2,unclear dose,DRUG2,M,25,10
+Location2,unclear route,DRUG2,M,15,5
+Location2,unclear dose,DRUG2,M,18,9
+Location2,unclear route,DRUG2,F,24,6
+Location2,unclear dose,DRUG2,M,14,8
+Location2,unclear route,DRUG2,M,21,1
+Location2,unclear dose,DRUG2,F,4,4
+Location2,unclear route,DRUG2,M,5,4
+Location2,unclear dose,DRUG2,M,4,5
+Location2,unclear route,DRUG2,M,8,5
+Location2,unclear dose,DRUG2,M,6,7
+Location2,unclear route,DRUG2,M,6,6
+Location2,unclear dose,DRUG2,M,16,6
+Location2,unclear route,DRUG2,M,12,6
+Location2,unclear dose,DRUG2,F,20,5
+Location2,unclear route,DRUG2,M,5,4
+Location2,unclear dose,DRUG2,F,18,8
+Location2,unclear route,DRUG2,M,12,1
+Location2,unclear dose,DRUG2,M,14,7
+Location2,unclear route,DRUG2,M,35,7
+Location2,unclear dose,DRUG2,M,3,10
+Location2,unclear route,DRUG2,M,2,7
+Location2,unclear dose,DRUG2,M,10,9
+Location2,unclear route,DRUG2,M,8,10
+Location2,unclear dose,DRUG2,M,12,4
+Location2,unclear route,DRUG2,M,3,1
+Location2,unclear dose,DRUG2,M,12,8
+Location2,unclear route,DRUG2,M,16,9
+Location2,unclear dose,DRUG2,M,15,9
+Location2,unclear route,DRUG2,M,25,9
+Location2,unclear dose,DRUG2,M,12,10
+Location2,unclear route,DRUG2,M,6,10
+Location2,unclear dose,DRUG2,M,7,9
+Location2,unclear route,DRUG2,M,21,2
+Location2,unclear dose,DRUG2,M,1,7
+Location2,unclear route,DRUG2,M,1,6
+Location2,unclear dose,DRUG2,M,4,8
+Location2,unclear route,DRUG2,M,4,9
+Location2,unclear dose,DRUG2,M,9,6
+Location2,unclear route,DRUG2,M,12,10
+Location2,unclear dose,DRUG2,M,8,4
+Location2,unclear route,DRUG2,M,4,8
+Location2,unclear dose,DRUG2,M,15,6
+Location2,unclear route,DRUG2,M,15,6
+Location2,unclear dose,DRUG2,M,24,1
+Location2,unclear route,DRUG2,M,24,2
+Location2,unclear dose,DRUG2,M,14,4
+Location2,unclear route,DRUG2,M,7,3
+Location2,unclear dose,DRUG2,M,2,8
+Location2,unclear route,DRUG2,M,3,5
+Location2,unclear dose,DRUG2,F,2,7
+Location2,unclear route,DRUG2,F,2,10
+Location2,unclear dose,DRUG2,F,15,9
+Location2,unclear route,DRUG2,M,6,10
+Location2,unclear dose,DRUG2,M,8,8
+Location2,unclear route,DRUG2,F,20,4
+Location2,unclear dose,DRUG2,M,20,10
+Location2,unclear route,DRUG2,M,15,9
+Location2,unclear dose,DRUG2,F,6,7
+Location2,unclear route,DRUG2,M,30,2
+Location5,unclear route,DRUG2,M,28,6
+Location5,unclear route,DRUG2,M,21,1
+Location5,unclear route,DRUG2,M,14,4
+Location7,Medication history documenting error,DRUG2,M,4,9
+Location7,Medication history documenting error,DRUG2,M,5,3
+Location7,Medication history documenting error,DRUG2,M,6,3
+Location7,Medication history documenting error,DRUG2,M,35,7
+Location7,Medication history documenting error,DRUG2,M,1,7
+Location7,Medication history documenting error,DRUG2,M,4,4
+Location7,Medication history documenting error,DRUG2,M,9,7
+Location7,Medication history documenting error,DRUG2,M,16,2
+Location7,Medication history documenting error,DRUG2,F,15,5
+Location7,Medication history documenting error,DRUG2,M,6,3
+Location7,Medication history documenting error,DRUG2,M,28,2
+Location7,Medication history documenting error,DRUG2,M,3,1
+Location7,Medication history documenting error,DRUG2,M,8,9
+Location7,Medication history documenting error,DRUG2,M,6,5
+Location7,Medication history documenting error,DRUG2,F,4,9
+Location7,Medication history documenting error,DRUG2,F,10,10
+Location7,Medication history documenting error,DRUG2,M,30,6
+Location7,Medication history documenting error,DRUG2,M,14,8
+Location7,Medication history documenting error,DRUG2,M,4,2
+Location7,Medication history documenting error,DRUG2,M,2,8
+Location7,Medication history documenting error,DRUG2,M,9,8
+Location7,Medication history documenting error,DRUG2,M,8,1
+Location7,Medication history documenting error,DRUG2,M,20,3
+Location7,Medication history documenting error,DRUG2,M,12,4
+Location7,Medication history documenting error,DRUG2,M,21,5
+Location7,Medication history documenting error,DRUG2,F,5,7
+Location7,Medication history documenting error,DRUG2,F,10,8
+Location7,Medication history documenting error,DRUG2,M,9,2
+Location7,Medication history documenting error,DRUG2,M,4,4
+Location7,Medication history documenting error,DRUG2,M,25,9
+Location7,Medication history documenting error,DRUG2,M,18,1
+Location1,Medication history documenting error,DRUG1,M,20,5
+Location4,Medication history documenting error,DRUG1,M,4,7
+Location1,Medication history documenting error,DRUG1,M,20,4
+Location4,Medication history documenting error,DRUG1,M,15,4
+Location5,unclear route,DRUG1,M,20,3
+Location5,unclear route,DRUG2,M,20,1
+Location1,Medication history documenting error,DRUG1,M,18,6
+Location4,Medication history documenting error,DRUG1,M,24,8
+Location4,Medication history documenting error,DRUG1,M,21,9
+Location5,unclear route,DRUG2,M,21,5
+Location1,Medication history documenting error,DRUG1,M,3,2
+Location4,Medication history documenting error,DRUG1,M,1,9
+Location5,unclear route,DRUG1,F,4,8
+Location5,unclear route,DRUG2,M,1,2
+Location1,Medication history documenting error,DRUG1,M,2,10
+Location4,Medication history documenting error,DRUG1,M,8,2
+Location5,unclear route,DRUG1,M,8,5
+Location1,Medication history documenting error,DRUG1,M,6,9
+Location4,Medication history documenting error,DRUG1,M,6,7
+Location5,unclear route,DRUG1,M,3,4
+Location1,Medication history documenting error,DRUG1,M,16,2
+Location4,Medication history documenting error,DRUG1,M,12,1
+Location5,unclear route,DRUG1,M,8,9
+Location1,Medication history documenting error,DRUG1,M,20,7
+Location5,unclear route,DRUG1,M,15,7
+Location1,Medication history documenting error,DRUG1,M,6,1
+Location4,Medication history documenting error,DRUG1,M,6,5
+Location4,Medication history documenting error,DRUG1,M,14,2
+Location1,Medication history documenting error,DRUG1,M,2,10
+Location4,Medication history documenting error,DRUG1,M,4,6
+Location5,unclear route,DRUG1,M,3,9
+Location1,Medication history documenting error,DRUG1,M,8,7
+Location4,Medication history documenting error,DRUG1,M,8,6
+Location5,unclear route,DRUG1,M,2,7
+Location1,Medication history documenting error,DRUG1,M,6,10
+Location4,Medication history documenting error,DRUG1,M,3,2
+Location5,unclear route,DRUG1,M,12,5
+Location4,Medication history documenting error,DRUG1,F,20,5
+Location5,unclear route,DRUG1,F,8,3
+Location1,Medication history documenting error,DRUG1,F,20,6
+Location4,Medication history documenting error,DRUG1,F,25,2
+Location5,unclear route,DRUG1,M,15,9
+Location1,Medication history documenting error,DRUG1,M,18,4
+Location4,Medication history documenting error,DRUG1,M,24,9
+Location4,Medication history documenting error,DRUG1,M,28,5
+Location1,Medication history documenting error,DRUG1,M,5,1
+Location4,Medication history documenting error,DRUG1,M,1,1
+Location5,unclear route,DRUG1,M,2,9
+Location1,Medication history documenting error,DRUG1,M,10,6
+Location4,Medication history documenting error,DRUG1,M,4,2
+Location5,unclear route,DRUG1,M,8,2
+Location1,Medication history documenting error,DRUG1,M,6,1
+Location4,Medication history documenting error,DRUG1,M,6,2
+Location5,unclear route,DRUG1,M,6,2
+Location1,Medication history documenting error,DRUG1,M,20,7
+Location4,Medication history documenting error,DRUG1,M,20,10
+Location5,unclear route,DRUG1,M,4,7
+Location1,Medication history documenting error,DRUG1,M,20,7
+Location4,Medication history documenting error,DRUG1,M,20,8
+Location5,unclear route,DRUG1,M,10,4
+Location1,Medication history documenting error,DRUG1,F,30,4
+Location4,Medication history documenting error,DRUG1,M,18,4
+Location4,Medication history documenting error,DRUG1,M,21,10
+Location1,Medication history documenting error,DRUG1,F,1,8
+Location4,Medication history documenting error,DRUG1,F,5,10
+Location5,unclear route,DRUG1,M,4,8
+Location4,Medication history documenting error,DRUG1,M,6,2
+Location4,Medication history documenting error,DRUG1,F,15,1
+Location5,unclear route,DRUG1,F,3,7
+Location1,Medication history documenting error,DRUG1,M,4,8
+Location4,Medication history documenting error,DRUG1,M,8,4
+Location5,unclear route,DRUG1,M,20,7
+Location1,Medication history documenting error,DRUG1,M,25,1
+Location4,Medication history documenting error,DRUG1,M,25,8
+Location5,unclear route,DRUG1,M,25,1
+Location1,Medication history documenting error,DRUG1,M,12,7
+Location4,Medication history documenting error,DRUG1,M,24,8
+Location1,unclear dose,DRUG1,M,14,5
+Location1,unclear dose,DRUG1,M,21,7
+Location1,unclear dose,DRUG1,M,21,9
+Location3,Medication history documenting error,DRUG1,M,12,10
+Location3,Medication history documenting error,DRUG1,M,25,1
+Location5,unclear route,DRUG1,M,6,2
+Location5,unclear route,DRUG1,M,14,5
+Location3,Medication history documenting error,DRUG1,M,1,4
+Location3,Medication history documenting error,DRUG1,M,8,2
+Location3,Medication history documenting error,DRUG1,M,6,5
+Location3,Medication history documenting error,DRUG1,M,4,10
+Location3,Medication history documenting error,DRUG1,M,5,1
+Location5,unclear route,DRUG1,M,6,10
+Location5,unclear route,DRUG1,M,14,10
+Location3,Medication history documenting error,DRUG1,F,2,10
+Location3,Medication history documenting error,DRUG1,M,8,8
+Location3,Medication history documenting error,DRUG1,M,3,8
+Location3,Medication history documenting error,DRUG1,M,4,1
+Location3,Medication history documenting error,DRUG1,M,25,1
+Location5,unclear route,DRUG1,M,30,4
+Location5,unclear route,DRUG1,M,21,4
+Location3,Medication history documenting error,DRUG1,M,4,7
+Location3,Medication history documenting error,DRUG1,M,12,8
+Location3,Medication history documenting error,DRUG1,M,4,3
+Location3,Medication history documenting error,DRUG1,M,5,7
+Location5,unclear route,DRUG1,M,24,1
+Location5,unclear route,DRUG1,M,21,6
+Location3,Medication history documenting error,DRUG1,M,4,9
+Location3,Medication history documenting error,DRUG1,M,3,10
+Location3,Medication history documenting error,DRUG1,M,5,5
+Location5,unclear route,DRUG1,M,18,8
+Location4,Medication history documenting error,DRUG1,M,21,5
+Location4,Medication history documenting error,DRUG1,M,2,4
+Location4,Medication history documenting error,DRUG1,M,8,3
+Location4,Medication history documenting error,DRUG1,M,15,9
+Location4,Medication history documenting error,DRUG1,M,16,7
+Location4,Medication history documenting error,DRUG1,M,25,1
+Location4,Medication history documenting error,DRUG1,M,28,6
+Location4,Medication history documenting error,DRUG1,M,1,8
+Location4,Medication history documenting error,DRUG1,M,6,7
+Location4,Medication history documenting error,DRUG1,M,9,8
+Location4,Medication history documenting error,DRUG1,M,5,3
+Location4,Medication history documenting error,DRUG1,M,21,1
+Location4,Medication history documenting error,DRUG1,M,3,4
+Location4,Medication history documenting error,DRUG1,M,6,2
+Location4,Medication history documenting error,DRUG1,M,9,2
+Location4,Medication history documenting error,DRUG1,M,4,3
+Location4,Medication history documenting error,DRUG1,M,10,9
+Location4,Medication history documenting error,DRUG1,M,28,1
+Location4,Medication history documenting error,DRUG1,M,1,8
+Location4,Medication history documenting error,DRUG1,M,6,8
+Location4,Medication history documenting error,DRUG1,M,15,5
+Location4,Medication history documenting error,DRUG1,M,20,3
+Location4,Medication history documenting error,DRUG1,M,25,5
+Location5,unclear route,DRUG3,M,8,7
+Location5,unclear route,DRUG3,M,25,4
+Location3,Medication history documenting error,DRUG1,M,24,8
+Location5,unclear route,DRUG3,M,12,6
+Location3,Medication history documenting error,DRUG1,M,35,6
+Location5,unclear route,DRUG3,F,21,9
+Location3,Medication history documenting error,DRUG1,M,5,3
+Location5,unclear route,DRUG3,F,4,7
+Location3,Medication history documenting error,DRUG1,M,2,10
+Location5,unclear route,DRUG3,M,4,10
+Location3,Medication history documenting error,DRUG1,M,12,3
+Location5,unclear route,DRUG3,F,9,8
+Location3,Medication history documenting error,DRUG1,M,20,5
+Location5,unclear route,DRUG3,M,12,6
+Location3,Medication history documenting error,DRUG1,M,25,5
+Location5,unclear route,DRUG3,F,20,5
+Location3,Medication history documenting error,DRUG1,M,12,3
+Location5,unclear route,DRUG3,M,12,8
+Location3,Medication history documenting error,DRUG1,M,21,9
+Location5,unclear route,DRUG3,M,35,9
+Location3,Medication history documenting error,DRUG1,M,5,8
+Location5,unclear route,DRUG3,M,5,7
+Location3,Medication history documenting error,DRUG1,M,10,7
+Location5,unclear route,DRUG3,M,4,1
+Location3,Medication history documenting error,DRUG1,M,15,7
+Location5,unclear route,DRUG3,M,12,9
+Location5,unclear route,DRUG3,F,4,3
+Location3,Medication history documenting error,DRUG1,F,15,3
+Location5,unclear route,DRUG3,F,10,9
+Location3,Medication history documenting error,DRUG1,M,30,3
+Location5,unclear route,DRUG3,M,18,10
+Location3,Medication history documenting error,DRUG1,M,21,4
+Location5,unclear route,DRUG3,F,28,3
+Location3,Medication history documenting error,DRUG1,M,5,6
+Location5,unclear route,DRUG3,M,3,7
+Location3,Medication history documenting error,DRUG1,M,2,8
+Location5,unclear route,DRUG3,M,2,5
+Location3,Medication history documenting error,DRUG1,M,3,8
+Location5,unclear route,DRUG3,M,6,2
+Location3,Medication history documenting error,DRUG1,M,12,5
+Location5,unclear route,DRUG3,M,8,2
+Location3,Medication history documenting error,DRUG1,M,25,8
+Location5,unclear route,DRUG3,M,15,8
+Location3,Medication history documenting error,DRUG1,M,18,5
+Location5,unclear route,DRUG3,M,30,9
+Location3,Medication history documenting error,DRUG1,M,21,9
+Location5,unclear route,DRUG3,F,21,1
+Location3,Medication history documenting error,DRUG1,M,5,1
+Location3,Medication history documenting error,DRUG1,M,2,4
+Location5,unclear route,DRUG3,M,6,7
+Location3,Medication history documenting error,DRUG1,M,12,2
+Location5,unclear route,DRUG3,M,4,9
+Location3,Medication history documenting error,DRUG1,M,10,4
+Location5,unclear route,DRUG3,M,10,1
+Location3,Medication history documenting error,DRUG1,M,30,2
+Location5,unclear route,DRUG3,M,6,5
+Location2,Medication history documenting error,DRUG2,M,12,6
+Location2,Medication history documenting error,DRUG2,F,15,1
+Location2,Medication history documenting error,DRUG2,M,30,3
+Location2,Medication history documenting error,DRUG2,M,14,8
+Location2,Medication history documenting error,DRUG2,M,1,1
+Location2,Medication history documenting error,DRUG2,M,6,3
+Location2,Medication history documenting error,DRUG2,M,3,10
+Location2,Medication history documenting error,DRUG2,M,4,2
+Location2,Medication history documenting error,DRUG2,M,10,9
+Location2,Medication history documenting error,DRUG2,M,2,7
+Location2,Medication history documenting error,DRUG2,M,6,1
+Location2,Medication history documenting error,DRUG2,M,9,6
+Location2,Medication history documenting error,DRUG2,M,1,1
+Location2,Medication history documenting error,DRUG2,M,4,2
+Location2,Medication history documenting error,DRUG2,M,9,8
+Location2,Medication history documenting error,DRUG2,M,20,9
+Location2,Medication history documenting error,DRUG2,M,25,1
+Location2,Medication history documenting error,DRUG2,F,3,3
+Location2,Medication history documenting error,DRUG2,M,2,8
+Location2,Medication history documenting error,DRUG2,M,9,3
+Location2,Medication history documenting error,DRUG2,M,15,7
+Location4,Medication history documenting error,DRUG1,M,20,3
+Location1,Medication history documenting error,DRUG1,M,10,1
+Location4,Medication history documenting error,DRUG1,M,10,5
+Location4,Medication history documenting error,DRUG1,M,18,9
+Location4,Medication history documenting error,DRUG1,M,35,2
+Location1,Medication history documenting error,DRUG1,M,3,6
+Location4,Medication history documenting error,DRUG1,M,4,4
+Location1,Medication history documenting error,DRUG1,M,4,3
+Location4,Medication history documenting error,DRUG1,M,8,7
+Location1,Medication history documenting error,DRUG1,M,9,2
+Location4,Medication history documenting error,DRUG1,M,12,8
+Location1,Medication history documenting error,DRUG1,M,16,1
+Location4,Medication history documenting error,DRUG1,M,20,4
+Location1,Medication history documenting error,DRUG1,F,20,2
+Location4,Medication history documenting error,DRUG1,M,10,4
+Location4,Medication history documenting error,DRUG1,M,24,6
+Location4,Medication history documenting error,DRUG1,M,35,4
+Location1,Medication history documenting error,DRUG1,M,3,5
+Location4,Medication history documenting error,DRUG1,F,4,6
+Location1,Medication history documenting error,DRUG1,M,4,1
+Location4,Medication history documenting error,DRUG1,M,6,8
+Location1,Medication history documenting error,DRUG1,F,9,7
+Location4,Medication history documenting error,DRUG1,M,6,8
+Location1,Medication history documenting error,DRUG1,M,20,3
+Location4,Medication history documenting error,DRUG1,M,8,8
+Location1,Medication history documenting error,DRUG1,F,10,4
+Location4,Medication history documenting error,DRUG1,M,15,8
+Location4,Medication history documenting error,DRUG1,M,6,5
+Location4,Medication history documenting error,DRUG1,M,28,4
+Location1,Medication history documenting error,DRUG1,M,3,7
+Location4,Medication history documenting error,DRUG1,M,3,7
+Location1,Medication history documenting error,DRUG1,M,4,6
+Location4,Medication history documenting error,DRUG1,M,8,3
+Location1,Medication history documenting error,DRUG1,M,15,1
+Location4,Medication history documenting error,DRUG1,M,3,5
+Location1,Medication history documenting error,DRUG1,M,12,2
+Location4,Medication history documenting error,DRUG1,M,16,6
+Location1,Medication history documenting error,DRUG1,M,15,4
+Location4,Medication history documenting error,DRUG1,M,10,8
+Location4,Medication history documenting error,DRUG1,M,30,7
+Location4,Medication history documenting error,DRUG1,M,14,1
+Location4,Medication history documenting error,DRUG1,F,2,6
+Location4,Medication history documenting error,DRUG1,M,2,6
+Location4,Medication history documenting error,DRUG1,M,6,3
+Location4,Medication history documenting error,DRUG1,M,20,7
+Location1,Medication history documenting error,DRUG1,M,20,1
+Location4,Medication history documenting error,DRUG1,M,5,6
+Location4,Medication history documenting error,DRUG1,M,6,8
+Location3,Medication history documenting error,DRUG1,M,2,4
+Location3,Medication history documenting error,DRUG1,M,10,7
+Location3,Medication history documenting error,DRUG1,M,6,4
+Location3,Medication history documenting error,DRUG1,M,12,10
+Location3,Medication history documenting error,DRUG1,M,20,6
+Location3,Medication history documenting error,DRUG1,M,7,4
+Location3,Medication history documenting error,DRUG1,M,2,3
+Location3,Medication history documenting error,DRUG1,M,4,10
+Location3,Medication history documenting error,DRUG1,F,3,8
+Location3,Medication history documenting error,DRUG1,M,8,6
+Location3,Medication history documenting error,DRUG1,M,25,9
+Location3,Medication history documenting error,DRUG1,M,2,5
+Location3,Medication history documenting error,DRUG1,M,3,4
+Location3,Medication history documenting error,DRUG1,M,20,9
+Location3,Medication history documenting error,DRUG1,M,10,6
+Location3,Medication history documenting error,DRUG1,M,14,3
+Location3,Medication history documenting error,DRUG1,M,1,8
+Location3,Medication history documenting error,DRUG1,M,12,9
+Location3,Medication history documenting error,DRUG1,M,4,1
+Location3,Medication history documenting error,DRUG1,M,20,4
+Location4,Medication history documenting error,DRUG1,M,21,9
+Location4,Medication history documenting error,DRUG1,M,5,9
+Location4,Medication history documenting error,DRUG1,M,8,4
+Location4,Medication history documenting error,DRUG1,M,6,5
+Location4,Medication history documenting error,DRUG1,M,4,2
+Location4,Medication history documenting error,DRUG1,M,5,2
+Location4,Medication history documenting error,DRUG1,M,21,6
+Location4,Medication history documenting error,DRUG1,M,1,8
+Location4,Medication history documenting error,DRUG1,M,10,4
+Location4,Medication history documenting error,DRUG1,M,9,3
+Location4,Medication history documenting error,DRUG1,M,4,4
+Location4,Medication history documenting error,DRUG1,M,10,1
+Location4,Medication history documenting error,DRUG1,M,35,2
+Location4,Medication history documenting error,DRUG1,M,1,4
+Location4,Medication history documenting error,DRUG1,M,4,6
+Location4,Medication history documenting error,DRUG1,M,6,2
+Location4,Medication history documenting error,DRUG1,M,16,2
+Location4,Medication history documenting error,DRUG1,M,15,9
+Location4,Medication history documenting error,DRUG1,M,7,6
+Location4,Medication history documenting error,DRUG1,M,4,7
+Location4,Medication history documenting error,DRUG1,M,12,7
+Location4,Medication history documenting error,DRUG1,M,10,3
+Location3,Medication history documenting error,DRUG1,M,12,2
+Location3,Medication history documenting error,DRUG1,M,15,6
+Location3,Medication history documenting error,DRUG1,M,6,9
+Location3,Medication history documenting error,DRUG1,M,21,1
+Location3,Medication history documenting error,DRUG1,M,1,1
+Location3,Medication history documenting error,DRUG1,M,8,7
+Location3,Medication history documenting error,DRUG1,M,3,1
+Location3,Medication history documenting error,DRUG1,M,12,1
+Location3,Medication history documenting error,DRUG1,M,10,8
+Location3,Medication history documenting error,DRUG1,M,18,10
+Location3,Medication history documenting error,DRUG1,M,21,8
+Location3,Medication history documenting error,DRUG1,M,5,1
+Location3,Medication history documenting error,DRUG1,M,6,9
+Location3,Medication history documenting error,DRUG1,M,6,10
+Location3,Medication history documenting error,DRUG1,M,20,1
+Location3,Medication history documenting error,DRUG1,F,7,9
+Location3,Medication history documenting error,DRUG1,M,5,7
+Location3,Medication history documenting error,DRUG1,M,8,4
+Location3,Medication history documenting error,DRUG1,M,3,5
+Location3,Medication history documenting error,DRUG1,M,8,9
+Location3,Medication history documenting error,DRUG1,M,15,7
+Location3,Medication history documenting error,DRUG1,M,18,5
+Location3,Medication history documenting error,DRUG1,M,21,5
+Location3,Medication history documenting error,DRUG1,M,1,8
+Location3,Medication history documenting error,DRUG1,M,8,5
+Location3,Medication history documenting error,DRUG1,M,12,5
+Location3,Medication history documenting error,DRUG1,M,25,2
+Location3,Medication history documenting error,DRUG1,M,12,9
+Location2,unclear dose,DRUG2,M,4,2
+Location2,unclear dose,DRUG2,M,10,6
+Location2,unclear dose,DRUG2,M,24,6
+Location2,unclear dose,DRUG2,M,35,2
+Location2,unclear dose,DRUG2,F,3,4
+Location2,unclear dose,DRUG2,M,6,6
+Location2,unclear dose,DRUG2,M,9,9
+Location2,unclear dose,DRUG2,M,4,4
+Location2,unclear dose,DRUG2,M,20,7
+Location2,unclear dose,DRUG2,F,18,9
+Location2,unclear dose,DRUG2,M,7,6
+Location2,unclear dose,DRUG2,M,5,9
+Location2,unclear dose,DRUG2,M,4,4
+Location2,unclear dose,DRUG2,M,12,10
+Location2,unclear dose,DRUG2,M,4,9
+Location2,unclear dose,DRUG2,M,10,7
+Location2,unclear dose,DRUG2,M,6,4
+Location2,unclear dose,DRUG2,M,14,7
+Location2,unclear dose,DRUG2,M,3,9
+Location2,unclear dose,DRUG2,F,4,9
+Location2,unclear dose,DRUG2,M,3,2
+Location2,unclear dose,DRUG2,M,16,2
+Location2,unclear dose,DRUG2,M,10,9
+Location2,unclear dose,DRUG2,M,24,9
+Location2,unclear dose,DRUG2,F,28,8
+Location2,unclear dose,DRUG2,M,3,8
+Location2,unclear dose,DRUG2,F,8,1
+Location2,unclear dose,DRUG2,F,6,7
+Location2,unclear dose,DRUG2,M,4,7
+Location2,unclear dose,DRUG2,M,20,5
+Location2,unclear dose,DRUG2,M,24,2
+Location2,Medication history documenting error,DRUG2,M,4,10
+Location2,unclear route,DRUG2,M,16,6
+Location2,Medication history documenting error,DRUG2,M,20,6
+Location2,unclear route,DRUG2,F,20,3
+Location2,Medication history documenting error,DRUG2,M,30,3
+Location2,unclear route,DRUG2,F,18,2
+Location2,Medication history documenting error,DRUG2,M,21,1
+Location2,unclear route,DRUG2,F,28,8
+Location2,Medication history documenting error,DRUG2,F,3,4
+Location2,unclear route,DRUG2,F,4,8
+Location2,Medication history documenting error,DRUG2,M,4,1
+Location2,unclear route,DRUG2,M,10,9
+Location2,Medication history documenting error,DRUG2,M,12,3
+Location2,unclear route,DRUG2,F,3,7
+Location2,Medication history documenting error,DRUG2,M,12,9
+Location2,unclear route,DRUG2,M,16,1
+Location2,Medication history documenting error,DRUG2,M,25,10
+Location2,unclear route,DRUG2,M,5,6
+Location2,Medication history documenting error,DRUG2,M,30,7
+Location2,unclear route,DRUG2,M,6,3
+Location2,Medication history documenting error,DRUG2,M,14,4
+Location2,unclear route,DRUG2,M,14,6
+Location2,Medication history documenting error,DRUG2,M,1,8
+Location2,unclear route,DRUG2,F,1,5
+Location2,Medication history documenting error,DRUG2,M,10,3
+Location2,unclear route,DRUG2,M,10,8
+Location2,Medication history documenting error,DRUG2,M,15,7
+Location2,unclear route,DRUG2,M,3,1
+Location2,Medication history documenting error,DRUG2,M,20,9
+Location2,unclear route,DRUG2,M,12,5
+Location2,unclear route,DRUG2,M,10,8
+Location2,Medication history documenting error,DRUG2,M,18,8
+Location2,unclear route,DRUG2,M,24,7
+Location2,Medication history documenting error,DRUG2,M,7,1
+Location2,unclear route,DRUG2,F,14,6
+Location2,Medication history documenting error,DRUG2,M,2,1
+Location2,unclear route,DRUG2,M,4,1
+Location2,Medication history documenting error,DRUG2,M,6,9
+Location2,unclear route,DRUG2,M,8,4
+Location2,Medication history documenting error,DRUG2,M,12,10
+Location2,unclear route,DRUG2,M,9,4
+Location2,Medication history documenting error,DRUG2,F,20,8
+Location2,unclear route,DRUG2,M,8,6
+Location2,Medication history documenting error,DRUG2,F,10,4
+Location2,unclear route,DRUG2,M,20,4
+Location2,Medication history documenting error,DRUG2,M,12,7
+Location2,unclear route,DRUG2,M,12,10
+Location2,Medication history documenting error,DRUG2,M,28,3
+Location2,unclear route,DRUG2,M,14,1
+Location2,Medication history documenting error,DRUG2,M,1,9
+Location2,unclear route,DRUG2,F,3,8
+Location2,Medication history documenting error,DRUG2,F,8,2
+Location2,unclear route,DRUG2,F,2,7
+Location2,Medication history documenting error,DRUG2,M,6,3
+Location2,unclear route,DRUG2,F,9,10
+Location2,Medication history documenting error,DRUG2,F,20,6
+Location2,unclear route,DRUG2,M,4,4
+Location2,Medication history documenting error,DRUG2,M,15,4
+Location2,unclear route,DRUG2,F,25,8
+Location2,Medication history documenting error,DRUG2,M,6,9
+Location2,unclear route,DRUG2,M,24,8
+Location1,Medication history documenting error,DRUG1,M,4,1
+Location4,Medication history documenting error,DRUG1,M,4,6
+Location6,unclear route,DRUG1,M,8,1
+Location5,unclear route,DRUG2,M,20,2
+Location1,Medication history documenting error,DRUG1,M,15,5
+Location4,Medication history documenting error,DRUG1,M,10,5
+Location6,unclear route,DRUG1,M,10,10
+Location5,unclear route,DRUG2,M,5,5
+Location1,Medication history documenting error,DRUG1,M,24,4
+Location4,Medication history documenting error,DRUG1,M,18,3
+Location6,unclear route,DRUG1,M,18,2
+Location1,Medication history documenting error,DRUG1,M,35,4
+Location4,Medication history documenting error,DRUG1,M,14,1
+Location6,unclear route,DRUG1,M,14,9
+Location1,Medication history documenting error,DRUG1,M,1,10
+Location4,Medication history documenting error,DRUG1,M,4,4
+Location6,unclear route,DRUG1,F,4,9
+Location5,unclear route,DRUG2,F,5,8
+Location1,Medication history documenting error,DRUG1,M,6,1
+Location4,Medication history documenting error,DRUG1,M,4,3
+Location6,unclear route,DRUG1,M,8,2
+Location5,unclear route,DRUG2,M,2,5
+Location1,Medication history documenting error,DRUG1,M,3,3
+Location4,Medication history documenting error,DRUG1,M,6,2
+Location6,unclear route,DRUG1,M,6,8
+Location5,unclear route,DRUG2,M,12,3
+Location1,Medication history documenting error,DRUG1,M,12,6
+Location4,Medication history documenting error,DRUG1,M,12,3
+Location6,unclear route,DRUG1,M,8,5
+Location5,unclear route,DRUG2,M,8,3
+Location1,Medication history documenting error,DRUG1,M,20,2
+Location4,Medication history documenting error,DRUG1,M,5,8
+Location6,unclear route,DRUG1,M,15,7
+Location5,unclear route,DRUG2,M,15,1
+Location1,Medication history documenting error,DRUG1,M,12,4
+Location4,Medication history documenting error,DRUG1,M,12,4
+Location6,unclear route,DRUG1,M,18,4
+Location1,Medication history documenting error,DRUG1,F,28,1
+Location4,Medication history documenting error,DRUG1,M,35,6
+Location6,unclear route,DRUG1,M,14,5
+Location1,Medication history documenting error,DRUG1,M,2,9
+Location4,Medication history documenting error,DRUG1,M,1,9
+Location6,unclear route,DRUG1,M,5,3
+Location5,unclear route,DRUG2,M,4,8
+Location1,Medication history documenting error,DRUG1,M,6,1
+Location4,Medication history documenting error,DRUG1,M,8,1
+Location6,unclear route,DRUG1,M,4,3
+Location5,unclear route,DRUG2,M,2,10
+Location1,Medication history documenting error,DRUG1,M,3,10
+Location4,Medication history documenting error,DRUG1,M,9,2
+Location6,unclear route,DRUG1,M,9,1
+Location5,unclear route,DRUG2,M,9,4
+Location1,Medication history documenting error,DRUG1,F,4,3
+Location6,unclear route,DRUG1,M,12,5
+Location5,unclear route,DRUG2,F,16,1
+Location1,Medication history documenting error,DRUG1,F,25,8
+Location4,Medication history documenting error,DRUG1,M,5,10
+Location6,unclear route,DRUG1,F,20,8
+Location5,unclear route,DRUG2,F,10,7
+Location1,Medication history documenting error,DRUG1,M,12,1
+Location4,Medication history documenting error,DRUG1,M,6,1
+Location6,unclear route,DRUG1,M,6,7
+Location1,Medication history documenting error,DRUG1,F,7,3
+Location4,Medication history documenting error,DRUG1,F,28,1
+Location6,unclear route,DRUG1,M,7,3
+Location1,Medication history documenting error,DRUG1,M,2,8
+Location4,Medication history documenting error,DRUG1,M,1,6
+Location6,unclear route,DRUG1,M,1,2
+Location5,unclear route,DRUG2,M,1,4
+Location1,Medication history documenting error,DRUG1,M,6,4
+Location4,Medication history documenting error,DRUG1,M,8,10
+Location6,unclear route,DRUG1,M,6,1
+Location5,unclear route,DRUG2,M,8,9
+Location1,Medication history documenting error,DRUG1,M,15,4
+Location4,Medication history documenting error,DRUG1,M,3,7
+Location6,unclear route,DRUG1,M,3,5
+Location5,unclear route,DRUG2,M,12,7
+Location1,Medication history documenting error,DRUG1,M,12,8
+Location4,Medication history documenting error,DRUG1,M,16,8
+Location6,unclear route,DRUG1,M,8,8
+Location5,unclear route,DRUG2,M,16,2
+Location1,Medication history documenting error,DRUG1,F,5,7
+Location4,Medication history documenting error,DRUG1,F,20,6
+Location6,unclear route,DRUG1,M,25,4
+Location5,unclear route,DRUG2,M,20,5
+Location1,Medication history documenting error,DRUG1,M,12,9
+Location4,Medication history documenting error,DRUG1,M,24,10
+Location6,unclear route,DRUG1,M,6,7
+Location1,Medication history documenting error,DRUG1,M,21,6
+Location4,Medication history documenting error,DRUG1,M,7,8
+Location6,unclear route,DRUG1,M,21,8
+Location1,Medication history documenting error,DRUG1,F,3,2
+Location6,unclear route,DRUG1,M,4,9
+Location5,unclear route,DRUG2,M,5,6
+Location4,Medication history documenting error,DRUG1,M,4,5
+Location6,unclear route,DRUG1,F,10,6
+Location4,Medication history documenting error,DRUG1,M,6,5
+Location6,unclear route,DRUG1,M,6,5
+Location1,Medication history documenting error,DRUG1,M,12,3
+Location4,Medication history documenting error,DRUG1,M,4,8
+Location6,unclear route,DRUG1,M,8,5
+Location5,unclear route,DRUG2,M,8,3
+Location1,Medication history documenting error,DRUG1,M,25,6
+Location4,Medication history documenting error,DRUG1,M,10,8
+Location6,unclear route,DRUG1,M,20,8
+Location5,unclear route,DRUG2,M,20,7
+Location1,Medication history documenting error,DRUG1,M,6,3
+Location4,Medication history documenting error,DRUG1,M,12,2
+Location6,unclear route,DRUG1,M,12,6
+Location5,unclear route,DRUG3,F,35,5
+Location5,unclear route,DRUG3,M,28,10
+Location5,unclear route,DRUG3,F,14,1
+Location5,unclear route,DRUG3,M,7,4
+Location3,Medication history documenting error,DRUG1,M,3,10
+Location3,Medication history documenting error,DRUG1,M,8,2
+Location3,Medication history documenting error,DRUG1,M,12,2
+Location3,Medication history documenting error,DRUG1,M,4,9
+Location3,Medication history documenting error,DRUG1,M,25,5
+Location3,Medication history documenting error,DRUG1,M,14,4
+Location3,Medication history documenting error,DRUG1,M,1,3
+Location3,Medication history documenting error,DRUG1,M,10,5
+Location3,Medication history documenting error,DRUG1,M,3,5
+Location3,Medication history documenting error,DRUG1,M,4,8
+Location3,Medication history documenting error,DRUG1,M,20,10
+Location3,Medication history documenting error,DRUG1,M,6,6
+Location3,Medication history documenting error,DRUG1,M,9,9
+Location3,Medication history documenting error,DRUG1,M,12,7
+Location3,Medication history documenting error,DRUG1,M,21,1
+Location3,Medication history documenting error,DRUG1,M,3,8
+Location3,Medication history documenting error,DRUG1,M,9,2
+Location3,Medication history documenting error,DRUG1,M,12,7
+Location3,Medication history documenting error,DRUG1,M,20,6
+Location5,unclear route,DRUG1,M,8,6
+Location5,unclear route,DRUG1,M,6,5
+Location5,unclear route,DRUG1,M,16,7
+Location5,unclear route,DRUG1,M,5,9
+Location5,unclear route,DRUG1,M,18,2
+Location5,unclear route,DRUG1,M,21,8
+Location5,unclear route,DRUG1,M,1,6
+Location5,unclear route,DRUG1,M,10,2
+Location5,unclear route,DRUG1,M,6,1
+Location5,unclear route,DRUG1,M,8,5
+Location5,unclear route,DRUG1,F,5,6
+Location5,unclear route,DRUG1,M,6,6
+Location5,unclear route,DRUG1,F,21,9
+Location5,unclear route,DRUG1,M,5,6
+Location5,unclear route,DRUG1,M,2,2
+Location5,unclear route,DRUG1,M,15,7
+Location5,unclear route,DRUG1,M,16,1
+Location5,unclear route,DRUG1,M,20,7
+Location5,unclear route,DRUG1,M,30,9
+Location5,unclear route,DRUG1,M,35,7
+Location5,unclear route,DRUG1,M,3,4
+Location5,unclear route,DRUG1,M,6,4
+Location5,unclear route,DRUG1,F,12,1
+Location5,unclear route,DRUG1,F,10,1
+Location5,unclear route,DRUG1,M,24,8
+Location1,Medication history documenting error,DRUG1,M,4,5
+Location5,unclear route,DRUG1,M,4,3
+Location1,Medication history documenting error,DRUG1,M,20,8
+Location5,unclear route,DRUG1,M,15,2
+Location5,unclear route,DRUG1,M,18,2
+Location4,Medication history documenting error,DRUG1,M,14,1
+Location5,unclear route,DRUG1,F,21,2
+Location4,Medication history documenting error,DRUG1,M,4,10
+Location5,unclear route,DRUG1,F,2,5
+Location1,Medication history documenting error,DRUG1,M,2,9
+Location4,Medication history documenting error,DRUG1,M,10,2
+Location1,Medication history documenting error,DRUG1,M,9,5
+Location4,Medication history documenting error,DRUG1,M,12,1
+Location1,Medication history documenting error,DRUG1,M,16,10
+Location4,Medication history documenting error,DRUG1,M,20,5
+Location1,Medication history documenting error,DRUG1,M,10,4
+Location4,Medication history documenting error,DRUG1,M,25,6
+Location4,Medication history documenting error,DRUG1,M,14,3
+Location4,Medication history documenting error,DRUG1,M,3,3
+Location1,Medication history documenting error,DRUG1,M,4,10
+Location4,Medication history documenting error,DRUG1,M,8,8
+Location4,Medication history documenting error,DRUG1,M,6,2
+Location1,Medication history documenting error,DRUG1,M,12,7
+Location4,Medication history documenting error,DRUG1,M,12,7
+Location1,Medication history documenting error,DRUG1,F,20,7
+Location4,Medication history documenting error,DRUG1,M,20,1
+Location4,Medication history documenting error,DRUG1,M,7,9
+Location1,Medication history documenting error,DRUG1,M,3,4
+Location4,Medication history documenting error,DRUG1,M,1,5
+Location1,Medication history documenting error,DRUG1,M,2,2
+Location4,Medication history documenting error,DRUG1,M,4,4
+Location1,Medication history documenting error,DRUG1,M,9,1
+Location4,Medication history documenting error,DRUG1,M,12,7
+Location1,Medication history documenting error,DRUG1,M,4,1
+Location4,Medication history documenting error,DRUG1,M,8,10
+Location1,Medication history documenting error,DRUG1,M,10,2
+Location4,Medication history documenting error,DRUG1,M,10,3
+Location4,Medication history documenting error,DRUG1,M,7,6
+Location4,Medication history documenting error,DRUG1,M,5,3
+Location1,Medication history documenting error,DRUG1,F,6,2
+Location4,Medication history documenting error,DRUG1,M,2,7
+Location1,Medication history documenting error,DRUG1,F,3,6
+Location1,Medication history documenting error,DRUG1,F,8,4
+Location4,Medication history documenting error,DRUG1,M,16,6
+Location1,Medication history documenting error,DRUG1,M,15,1
+Location4,Medication history documenting error,DRUG1,M,15,7
+Location3,Medication history documenting error,DRUG1,M,8,2
+Location3,Medication history documenting error,DRUG1,M,20,10
+Location2,unclear route,DRUG2,F,5,9
+Location3,Medication history documenting error,DRUG1,M,6,5
+Location3,Medication history documenting error,DRUG1,M,28,8
+Location2,unclear route,DRUG2,F,21,6
+Location3,Medication history documenting error,DRUG1,M,4,6
+Location2,unclear route,DRUG2,F,4,5
+Location3,Medication history documenting error,DRUG1,M,2,7
+Location2,unclear route,DRUG2,M,2,9
+Location3,Medication history documenting error,DRUG1,M,6,7
+Location2,unclear route,DRUG2,M,6,5
+Location3,Medication history documenting error,DRUG1,M,20,1
+Location2,unclear route,DRUG2,M,16,1
+Location3,Medication history documenting error,DRUG1,M,15,4
+Location2,unclear route,DRUG2,M,20,9
+Location3,Medication history documenting error,DRUG1,M,6,10
+Location3,Medication history documenting error,DRUG1,M,35,4
+Location2,unclear route,DRUG2,F,21,6
+Location3,Medication history documenting error,DRUG1,M,5,3
+Location2,unclear route,DRUG2,M,5,5
+Location3,Medication history documenting error,DRUG1,M,4,9
+Location2,unclear route,DRUG2,F,6,6
+Location3,Medication history documenting error,DRUG1,M,9,10
+Location2,unclear route,DRUG2,F,3,7
+Location3,Medication history documenting error,DRUG1,M,4,4
+Location3,Medication history documenting error,DRUG1,M,10,6
+Location3,Medication history documenting error,DRUG1,M,18,10
+Location3,Medication history documenting error,DRUG1,M,35,2
+Location3,Medication history documenting error,DRUG1,M,5,10
+Location2,unclear route,DRUG2,M,3,3
+Location3,Medication history documenting error,DRUG1,M,10,7
+Location2,unclear route,DRUG2,M,10,4
+Location3,Medication history documenting error,DRUG1,M,3,8
+Location2,unclear route,DRUG2,M,3,1
+Location3,Medication history documenting error,DRUG1,F,20,7
+Location2,unclear route,DRUG2,M,8,2
+Location3,Medication history documenting error,DRUG1,M,5,10
+Location2,unclear route,DRUG2,M,10,10
+Location3,Medication history documenting error,DRUG1,M,18,3
+Location3,Medication history documenting error,DRUG1,M,14,7
+Location2,unclear route,DRUG2,F,35,1
+Location3,Medication history documenting error,DRUG1,F,5,3
+Location2,unclear route,DRUG2,F,3,7
+Location3,Medication history documenting error,DRUG1,M,8,3
+Location2,unclear route,DRUG2,F,2,2
+Location2,unclear route,DRUG2,M,15,4
+Location3,Medication history documenting error,DRUG1,M,12,3
+Location2,unclear route,DRUG2,M,20,3
+Location3,Medication history documenting error,DRUG1,M,25,1
+Location2,unclear route,DRUG2,M,5,1
+Location3,Medication history documenting error,DRUG1,M,6,9
+Location8,unclear dose,DRUG3,M,12,10
+Location3,unclear dose,DRUG1,M,12,1
+Location5,unclear route,DRUG3,M,12,3
+Location8,unclear dose,DRUG3,M,15,2
+Location2,Medication history documenting error,DRUG2,F,15,1
+Location2,unclear dose,DRUG2,M,10,6
+Location3,unclear dose,DRUG1,M,10,10
+Location5,unclear route,DRUG3,M,15,8
+Location2,unclear dose,DRUG2,M,6,1
+Location3,unclear dose,DRUG1,F,12,10
+Location5,unclear route,DRUG3,M,12,6
+Location8,unclear dose,DRUG3,F,14,10
+Location2,Medication history documenting error,DRUG2,F,7,5
+Location2,unclear dose,DRUG2,M,21,6
+Location3,unclear dose,DRUG1,M,21,8
+Location5,unclear route,DRUG3,F,28,3
+Location8,unclear dose,DRUG3,F,4,6
+Location2,Medication history documenting error,DRUG2,F,2,9
+Location3,unclear dose,DRUG1,M,3,4
+Location5,unclear route,DRUG3,F,4,9
+Location8,unclear dose,DRUG3,M,8,3
+Location2,Medication history documenting error,DRUG2,M,10,3
+Location2,unclear dose,DRUG2,M,8,3
+Location3,unclear dose,DRUG1,M,4,9
+Location5,unclear route,DRUG3,M,4,4
+Location8,unclear dose,DRUG3,M,15,6
+Location2,Medication history documenting error,DRUG2,M,9,8
+Location2,unclear dose,DRUG2,M,3,2
+Location3,unclear dose,DRUG1,M,6,10
+Location5,unclear route,DRUG3,M,15,7
+Location8,unclear dose,DRUG3,M,4,4
+Location2,Medication history documenting error,DRUG2,F,8,9
+Location2,unclear dose,DRUG2,M,12,7
+Location3,unclear dose,DRUG1,F,4,3
+Location5,unclear route,DRUG3,M,8,1
+Location8,unclear dose,DRUG3,M,10,5
+Location2,Medication history documenting error,DRUG2,F,20,4
+Location2,unclear dose,DRUG2,M,25,5
+Location3,unclear dose,DRUG1,M,10,5
+Location5,unclear route,DRUG3,M,10,6
+Location8,unclear dose,DRUG3,M,30,3
+Location3,unclear dose,DRUG1,F,12,10
+Location5,unclear route,DRUG3,M,6,9
+Location8,unclear dose,DRUG3,M,7,2
+Location2,Medication history documenting error,DRUG2,M,28,3
+Location2,unclear dose,DRUG2,F,14,1
+Location3,unclear dose,DRUG1,F,7,8
+Location5,unclear route,DRUG3,M,7,4
+Location8,unclear dose,DRUG3,M,2,10
+Location2,Medication history documenting error,DRUG2,M,2,8
+Location2,unclear dose,DRUG2,F,5,2
+Location3,unclear dose,DRUG1,M,1,4
+Location5,unclear route,DRUG3,F,3,4
+Location8,unclear dose,DRUG3,M,2,8
+Location2,unclear dose,DRUG2,M,8,4
+Location3,unclear dose,DRUG1,M,10,6
+Location5,unclear route,DRUG3,F,6,1
+Location8,unclear dose,DRUG3,M,9,10
+Location2,unclear dose,DRUG2,M,3,9
+Location3,unclear dose,DRUG1,M,12,7
+Location5,unclear route,DRUG3,M,12,3
+Location8,unclear dose,DRUG3,M,8,2
+Location2,Medication history documenting error,DRUG2,F,20,8
+Location2,unclear dose,DRUG2,M,4,7
+Location3,unclear dose,DRUG1,M,12,1
+Location5,unclear route,DRUG3,M,20,10
+Location8,unclear dose,DRUG3,M,25,8
+Location2,Medication history documenting error,DRUG2,F,15,8
+Location2,unclear dose,DRUG2,M,10,6
+Location3,unclear dose,DRUG1,F,20,5
+Location5,unclear route,DRUG3,F,25,4
+Location8,unclear dose,DRUG3,M,6,8
+Location3,unclear dose,DRUG1,F,24,3
+Location5,unclear route,DRUG3,M,24,10
+Location8,unclear dose,DRUG3,M,35,10
+Location2,Medication history documenting error,DRUG2,F,7,10
+Location2,unclear dose,DRUG2,F,28,2
+Location3,unclear dose,DRUG1,F,7,9
+Location5,unclear route,DRUG3,F,35,9
+Location8,unclear dose,DRUG3,M,2,8
+Location2,Medication history documenting error,DRUG2,M,1,9
+Location2,unclear dose,DRUG2,M,4,6
+Location3,unclear dose,DRUG1,F,5,10
+Location5,unclear route,DRUG3,M,5,3
+Location8,unclear dose,DRUG3,M,4,9
+Location2,Medication history documenting error,DRUG2,M,8,7
+Location2,unclear dose,DRUG2,M,10,6
+Location3,unclear dose,DRUG1,F,4,3
+Location5,unclear route,DRUG3,M,2,9
+Location8,unclear dose,DRUG3,M,9,9
+Location2,Medication history documenting error,DRUG2,M,12,7
+Location2,unclear dose,DRUG2,M,9,3
+Location3,unclear dose,DRUG1,M,12,2
+Location5,unclear route,DRUG3,M,9,1
+Location8,unclear dose,DRUG3,F,12,3
+Location2,Medication history documenting error,DRUG2,F,20,6
+Location2,unclear dose,DRUG2,M,4,10
+Location3,unclear dose,DRUG1,M,4,9
+Location5,unclear route,DRUG3,M,12,10
+Location8,unclear dose,DRUG3,F,5,2
+Location2,unclear dose,DRUG2,M,5,2
+Location3,unclear dose,DRUG1,M,25,3
+Location5,unclear route,DRUG3,F,20,4
+Location8,unclear dose,DRUG3,M,6,7
+Location3,unclear dose,DRUG1,F,12,8
+Location5,unclear route,DRUG3,M,6,10
+Location8,unclear dose,DRUG3,M,7,9
+Location2,Medication history documenting error,DRUG2,M,21,2
+Location2,unclear dose,DRUG2,M,28,4
+Location3,unclear dose,DRUG1,F,35,1
+Location5,unclear route,DRUG3,M,28,4
+Location8,unclear dose,DRUG3,M,5,3
+Location2,Medication history documenting error,DRUG2,F,3,3
+Location2,unclear dose,DRUG2,F,5,9
+Location3,unclear dose,DRUG1,F,3,7
+Location5,unclear route,DRUG3,M,5,7
+Location8,unclear dose,DRUG3,M,4,10
+Location2,Medication history documenting error,DRUG2,F,4,10
+Location2,unclear dose,DRUG2,F,6,7
+Location3,unclear dose,DRUG1,F,4,8
+Location8,unclear dose,DRUG3,M,3,5
+Location2,Medication history documenting error,DRUG2,F,6,6
+Location2,unclear dose,DRUG2,M,6,5
+Location3,unclear dose,DRUG1,M,3,3
+Location5,unclear route,DRUG3,M,15,10
+Location8,unclear dose,DRUG3,M,12,3
+Location2,Medication history documenting error,DRUG2,F,4,4
+Location2,unclear dose,DRUG2,M,4,3
+Location3,unclear dose,DRUG1,F,12,2
+Location5,unclear route,DRUG3,M,12,2
+Location8,unclear dose,DRUG3,M,25,10
+Location2,Medication history documenting error,DRUG2,F,20,8
+Location2,unclear dose,DRUG2,M,5,4
+Location3,unclear dose,DRUG1,F,20,8
+Location5,unclear route,DRUG3,F,20,2
+Location8,unclear dose,DRUG3,M,24,6
+Location3,unclear dose,DRUG1,M,6,8
+Location5,unclear route,DRUG3,M,12,3
+Location1,Medication history documenting error,DRUG1,M,12,2
+Location4,Medication history documenting error,DRUG1,M,8,4
+Location1,Medication history documenting error,DRUG1,M,25,9
+Location4,Medication history documenting error,DRUG1,M,20,9
+Location4,Medication history documenting error,DRUG1,M,6,4
+Location1,Medication history documenting error,DRUG1,F,35,8
+Location4,Medication history documenting error,DRUG1,M,28,6
+Location4,Medication history documenting error,DRUG1,M,4,10
+Location1,Medication history documenting error,DRUG1,F,10,4
+Location4,Medication history documenting error,DRUG1,M,4,4
+Location5,unclear route,DRUG2,M,2,8
+Location1,Medication history documenting error,DRUG1,F,12,4
+Location4,Medication history documenting error,DRUG1,F,15,3
+Location5,unclear route,DRUG2,F,15,6
+Location1,Medication history documenting error,DRUG1,M,20,7
+Location4,Medication history documenting error,DRUG1,M,4,1
+Location5,unclear route,DRUG2,M,20,9
+Location1,Medication history documenting error,DRUG1,M,10,6
+Location4,Medication history documenting error,DRUG1,M,15,3
+Location5,unclear route,DRUG2,M,10,9
+Location4,Medication history documenting error,DRUG1,M,24,9
+Location5,unclear route,DRUG2,M,6,4
+Location1,Medication history documenting error,DRUG1,M,7,3
+Location4,Medication history documenting error,DRUG1,M,21,10
+Location5,unclear route,DRUG2,M,7,6
+Location1,Medication history documenting error,DRUG1,M,2,9
+Location4,Medication history documenting error,DRUG1,M,3,4
+Location5,unclear route,DRUG2,M,1,5
+Location1,Medication history documenting error,DRUG1,M,8,1
+Location4,Medication history documenting error,DRUG1,M,8,6
+Location5,unclear route,DRUG2,M,8,9
+Location1,Medication history documenting error,DRUG1,M,15,9
+Location4,Medication history documenting error,DRUG1,M,12,4
+Location5,unclear route,DRUG2,M,6,10
+Location1,Medication history documenting error,DRUG1,M,4,9
+Location4,Medication history documenting error,DRUG1,M,12,4
+Location5,unclear route,DRUG2,M,20,8
+Location4,Medication history documenting error,DRUG1,M,5,6
+Location5,unclear route,DRUG2,F,25,5
+Location4,Medication history documenting error,DRUG1,M,18,9
+Location5,unclear route,DRUG2,M,12,5
+Location1,Medication history documenting error,DRUG1,F,28,1
+Location5,unclear route,DRUG2,F,28,9
+Location1,Medication history documenting error,DRUG1,F,5,6
+Location4,Medication history documenting error,DRUG1,M,4,9
+Location5,unclear route,DRUG2,M,2,3
+Location1,Medication history documenting error,DRUG1,M,2,1
+Location4,Medication history documenting error,DRUG1,M,8,8
+Location5,unclear route,DRUG2,M,6,6
+Location1,Medication history documenting error,DRUG1,M,3,4
+Location4,Medication history documenting error,DRUG1,M,9,9
+Location5,unclear route,DRUG2,F,3,7
+Location1,Medication history documenting error,DRUG1,M,16,3
+Location4,Medication history documenting error,DRUG1,M,16,7
+Location5,unclear route,DRUG2,M,4,3
+Location4,Medication history documenting error,DRUG1,M,25,3
+Location5,unclear route,DRUG2,M,10,10
+Location4,Medication history documenting error,DRUG1,M,24,10
+Location5,unclear route,DRUG2,M,30,4
+Location1,Medication history documenting error,DRUG1,F,14,10
+Location4,Medication history documenting error,DRUG1,M,14,5
+Location5,unclear route,DRUG2,M,28,4
+Location5,unclear route,DRUG2,F,2,5
+Location1,Medication history documenting error,DRUG1,M,2,6
+Location4,Medication history documenting error,DRUG1,M,4,9
+Location5,unclear route,DRUG2,F,4,5
+Location1,Medication history documenting error,DRUG1,M,6,2
+Location4,Medication history documenting error,DRUG1,F,9,7
+Location5,unclear route,DRUG2,M,12,4
+Location1,Medication history documenting error,DRUG1,F,16,2
+Location4,Medication history documenting error,DRUG1,M,8,6
+Location5,unclear route,DRUG2,M,16,2
+Location1,Medication history documenting error,DRUG1,M,25,1
+Location4,Medication history documenting error,DRUG1,M,20,2
+Location5,unclear route,DRUG2,F,25,7
+Location4,Medication history documenting error,DRUG1,M,18,6
+Location5,unclear route,DRUG2,M,24,4
+Location5,unclear route,DRUG2,M,8,7
+Location5,unclear route,DRUG2,F,5,8
+Location5,unclear route,DRUG2,M,30,6
+Location5,unclear route,DRUG2,F,7,5
+Location5,unclear route,DRUG2,F,4,6
+Location1,unclear dose,DRUG1,M,12,6
+Location5,unclear route,DRUG1,M,4,5
+Location5,unclear route,DRUG1,M,10,9
+Location5,unclear route,DRUG1,F,3,3
+Location5,unclear route,DRUG1,F,2,10
+Location5,unclear route,DRUG1,M,15,7
+Location5,unclear route,DRUG1,M,8,4
+Location5,unclear route,DRUG1,M,15,6
+Location5,unclear route,DRUG1,M,3,8
+Location5,unclear route,DRUG1,M,8,1
+Location5,unclear route,DRUG1,M,9,3
+Location5,unclear route,DRUG1,M,8,9
+Location5,unclear route,DRUG1,F,25,2
+Location5,unclear route,DRUG1,M,4,10
+Location5,unclear route,DRUG1,F,10,2
+Location5,unclear route,DRUG1,F,9,7
+Location5,unclear route,DRUG1,M,4,5
+Location5,unclear route,DRUG1,F,25,7
+Location5,unclear route,DRUG1,F,5,8
+Location5,unclear route,DRUG1,M,3,3
+Location5,unclear route,DRUG1,F,4,1
+Location5,unclear route,DRUG1,F,15,9
+Location1,unclear dose,DRUG1,M,12,5
+Location1,unclear dose,DRUG1,M,10,3
+Location1,unclear dose,DRUG1,F,18,5
+Location1,unclear dose,DRUG1,F,21,1
+Location1,unclear dose,DRUG1,M,3,5
+Location3,Medication history documenting error,DRUG1,M,10,10
+Location1,unclear dose,DRUG1,M,2,10
+Location3,Medication history documenting error,DRUG1,M,6,5
+Location1,unclear dose,DRUG1,M,3,9
+Location3,Medication history documenting error,DRUG1,M,16,10
+Location1,unclear dose,DRUG1,M,16,2
+Location3,Medication history documenting error,DRUG1,M,15,10
+Location1,unclear dose,DRUG1,M,15,9
+Location1,unclear dose,DRUG1,M,12,7
+Location3,Medication history documenting error,DRUG1,M,14,1
+Location1,unclear dose,DRUG1,M,7,8
+Location3,Medication history documenting error,DRUG1,M,1,3
+Location1,unclear dose,DRUG1,M,5,9
+Location3,Medication history documenting error,DRUG1,M,4,10
+Location1,unclear dose,DRUG1,M,10,2
+Location3,Medication history documenting error,DRUG1,F,3,5
+Location1,unclear dose,DRUG1,M,6,10
+Location3,Medication history documenting error,DRUG1,M,20,7
+Location1,unclear dose,DRUG1,M,8,7
+Location3,Medication history documenting error,DRUG1,M,5,8
+Location1,unclear dose,DRUG1,M,25,6
+Location1,unclear dose,DRUG1,M,30,6
+Location1,unclear dose,DRUG1,F,21,8
+Location3,Medication history documenting error,DRUG1,M,5,5
+Location1,unclear dose,DRUG1,M,1,10
+Location3,Medication history documenting error,DRUG1,M,10,3
+Location1,unclear dose,DRUG1,M,8,3
+Location3,Medication history documenting error,DRUG1,M,3,8
+Location1,unclear dose,DRUG1,M,15,6
+Location3,Medication history documenting error,DRUG1,M,20,2
+Location1,unclear dose,DRUG1,M,20,3
+Location3,Medication history documenting error,DRUG1,M,5,9
+Location1,unclear dose,DRUG1,F,10,3
+Location1,unclear dose,DRUG1,M,12,4
+Location3,Medication history documenting error,DRUG1,M,35,10
+Location1,unclear dose,DRUG1,F,14,2
+Location3,Medication history documenting error,DRUG1,F,2,10
+Location1,unclear dose,DRUG1,F,5,9
+Location1,unclear dose,DRUG1,F,8,1
+Location3,Medication history documenting error,DRUG1,M,6,5
+Location1,unclear dose,DRUG1,M,9,3
+Location3,Medication history documenting error,DRUG1,M,20,7
+Location1,unclear dose,DRUG1,F,16,7
+Location3,Medication history documenting error,DRUG1,M,20,3
+Location1,unclear dose,DRUG1,M,20,1
+Location5,unclear route,DRUG1,M,24,10
+Location4,Medication history documenting error,DRUG1,M,7,1
+Location1,Medication history documenting error,DRUG1,F,5,1
+Location4,Medication history documenting error,DRUG1,M,2,2
+Location1,Medication history documenting error,DRUG1,M,2,9
+Location4,Medication history documenting error,DRUG1,M,4,3
+Location1,Medication history documenting error,DRUG1,F,15,3
+Location4,Medication history documenting error,DRUG1,F,6,7
+Location1,Medication history documenting error,DRUG1,M,12,3
+Location4,Medication history documenting error,DRUG1,M,16,6
+Location1,Medication history documenting error,DRUG1,F,15,4
+Location4,Medication history documenting error,DRUG1,M,10,4
+Location5,unclear route,DRUG1,M,6,2
+Location4,Medication history documenting error,DRUG1,M,35,3
+Location1,Medication history documenting error,DRUG1,M,1,4
+Location4,Medication history documenting error,DRUG1,M,5,3
+Location1,Medication history documenting error,DRUG1,F,4,6
+Location4,Medication history documenting error,DRUG1,F,10,2
+Location1,Medication history documenting error,DRUG1,M,12,7
+Location4,Medication history documenting error,DRUG1,M,12,3
+Location1,Medication history documenting error,DRUG1,F,12,5
+Location4,Medication history documenting error,DRUG1,M,12,7
+Location1,Medication history documenting error,DRUG1,F,25,1
+Location4,Medication history documenting error,DRUG1,M,25,2
+Location5,unclear route,DRUG1,M,6,3
+Location4,Medication history documenting error,DRUG1,F,7,5
+Location1,Medication history documenting error,DRUG1,M,5,5
+Location4,Medication history documenting error,DRUG1,M,5,1
+Location1,Medication history documenting error,DRUG1,M,4,6
+Location4,Medication history documenting error,DRUG1,M,8,7
+Location1,Medication history documenting error,DRUG1,M,3,1
+Location4,Medication history documenting error,DRUG1,M,12,6
+Location1,Medication history documenting error,DRUG1,M,12,1
+Location4,Medication history documenting error,DRUG1,M,20,2
+Location5,unclear route,DRUG1,M,30,5
+Location4,Medication history documenting error,DRUG1,M,7,5
+Location4,Medication history documenting error,DRUG1,M,5,10
+Location1,Medication history documenting error,DRUG1,F,8,5
+Location4,Medication history documenting error,DRUG1,M,10,10
+Location1,Medication history documenting error,DRUG1,M,12,7
+Location4,Medication history documenting error,DRUG1,F,12,7
+Location4,Medication history documenting error,DRUG1,M,16,3
+Location1,Medication history documenting error,DRUG1,F,10,9
+Location4,Medication history documenting error,DRUG1,M,25,7
+Location5,unclear route,DRUG1,M,6,10
+Location5,unclear route,DRUG3,F,14,10
+Location2,unclear dose,DRUG2,M,20,1
+Location2,unclear dose,DRUG2,M,18,7
+Location2,unclear dose,DRUG2,M,35,6
+Location2,unclear dose,DRUG2,F,2,3
+Location2,unclear dose,DRUG2,M,8,9
+Location2,unclear dose,DRUG2,M,9,1
+Location2,unclear dose,DRUG2,M,4,3
+Location2,unclear dose,DRUG2,M,15,1
+Location2,unclear dose,DRUG2,M,28,8
+Location2,unclear dose,DRUG2,F,10,7
+Location2,unclear dose,DRUG2,M,15,9
+Location2,unclear dose,DRUG2,M,20,3
+Location2,unclear dose,DRUG2,M,20,8
+Location2,unclear dose,DRUG2,F,35,8
+Location2,unclear dose,DRUG2,M,5,5
+Location2,unclear dose,DRUG2,M,6,3
+Location2,unclear dose,DRUG2,M,6,4
+Location2,unclear dose,DRUG2,M,16,7
+Location2,unclear dose,DRUG2,M,5,2
+Location2,unclear dose,DRUG2,M,35,10
+Location2,unclear dose,DRUG2,M,3,4
+Location2,unclear dose,DRUG2,M,12,4
+Location2,unclear dose,DRUG2,M,12,8
+Location2,unclear dose,DRUG2,M,20,1
+Location5,unclear route,DRUG1,M,8,2
+Location5,unclear route,DRUG1,M,10,6
+Location3,Medication history documenting error,DRUG1,M,12,6
+Location3,Medication history documenting error,DRUG1,M,7,2
+Location6,unclear route,DRUG1,F,28,10
+Location3,Medication history documenting error,DRUG1,M,1,8
+Location3,Medication history documenting error,DRUG1,M,6,10
+Location5,unclear route,DRUG1,M,8,9
+Location3,Medication history documenting error,DRUG1,M,12,5
+Location5,unclear route,DRUG1,M,6,8
+Location3,Medication history documenting error,DRUG1,M,20,7
+Location5,unclear route,DRUG1,M,8,4
+Location3,Medication history documenting error,DRUG1,M,25,3
+Location5,unclear route,DRUG1,M,20,7
+Location3,Medication history documenting error,DRUG1,M,18,9
+Location3,Medication history documenting error,DRUG1,M,35,9
+Location6,unclear route,DRUG1,M,14,5
+Location3,Medication history documenting error,DRUG1,M,1,5
+Location5,unclear route,DRUG1,M,1,3
+Location3,Medication history documenting error,DRUG1,F,8,8
+Location5,unclear route,DRUG1,M,10,4
+Location3,Medication history documenting error,DRUG1,M,6,6
+Location5,unclear route,DRUG1,M,9,3
+Location3,Medication history documenting error,DRUG1,M,20,5
+Location5,unclear route,DRUG1,M,8,10
+Location3,Medication history documenting error,DRUG1,M,25,2
+Location5,unclear route,DRUG1,F,15,3
+Location3,Medication history documenting error,DRUG1,F,30,3
+Location3,Medication history documenting error,DRUG1,M,35,3
+Location6,unclear route,DRUG1,F,28,1
+Location3,Medication history documenting error,DRUG1,M,1,7
+Location5,unclear route,DRUG1,M,2,1
+Location3,Medication history documenting error,DRUG1,F,2,2
+Location5,unclear route,DRUG1,M,4,2
+Location3,Medication history documenting error,DRUG1,F,15,8
+Location5,unclear route,DRUG1,F,15,1
+Location3,Medication history documenting error,DRUG1,F,16,6
+Location5,unclear route,DRUG1,M,20,4
+Location3,Medication history documenting error,DRUG1,M,25,2
+Location5,unclear route,DRUG1,M,20,1
+Location3,Medication history documenting error,DRUG1,M,18,8
+Location3,Medication history documenting error,DRUG1,M,35,8
+Location6,unclear route,DRUG1,M,28,8
+Location3,Medication history documenting error,DRUG1,M,1,4
+Location3,Medication history documenting error,DRUG1,F,10,9
+Location5,unclear route,DRUG1,M,15,7
+Location3,Medication history documenting error,DRUG1,M,16,1
+Location5,unclear route,DRUG1,M,16,5
+Location3,Medication history documenting error,DRUG1,M,20,5
+Location5,unclear route,DRUG1,M,20,10
+Location3,Medication history documenting error,DRUG1,M,30,8
+Location2,unclear dose,DRUG1,M,20,3
+Location2,unclear dose,DRUG1,M,20,9
+Location2,unclear dose,DRUG1,M,35,4
+Location2,unclear dose,DRUG1,F,4,6
+Location2,unclear dose,DRUG1,M,12,8
+Location2,unclear dose,DRUG1,F,8,6
+Location2,unclear dose,DRUG1,M,10,5
+Location2,unclear dose,DRUG1,F,30,7
+Location2,unclear dose,DRUG1,M,28,10
+Location2,unclear dose,DRUG1,M,1,4
+Location2,unclear dose,DRUG1,M,4,3
+Location2,unclear dose,DRUG1,M,12,7
+Location2,unclear dose,DRUG1,M,12,10
+Location2,unclear dose,DRUG1,M,25,1
+Location2,unclear dose,DRUG1,M,12,8
+Location2,unclear dose,DRUG1,F,35,8
+Location2,unclear dose,DRUG1,M,3,5
+Location2,unclear dose,DRUG1,M,8,8
+Location2,unclear dose,DRUG1,M,4,7
+Location2,unclear dose,DRUG1,M,25,8
+Location2,unclear dose,DRUG1,M,30,9
+Location2,unclear dose,DRUG1,M,7,5
+Location2,unclear dose,DRUG1,F,6,5
+Location2,unclear dose,DRUG1,M,3,5
+Location2,unclear dose,DRUG1,M,12,3
+Location2,unclear dose,DRUG1,M,5,5
+Location2,unclear dose,DRUG1,M,6,4
+Location2,unclear dose,DRUG2,M,16,6
+Location2,unclear dose,DRUG2,M,25,5
+Location2,unclear dose,DRUG2,M,6,6
+Location2,unclear dose,DRUG2,M,21,2
+Location2,unclear dose,DRUG2,M,4,4
+Location2,unclear dose,DRUG2,M,8,9
+Location2,unclear dose,DRUG2,M,9,1
+Location2,unclear dose,DRUG2,M,12,7
+Location2,unclear dose,DRUG2,M,10,1
+Location2,unclear dose,DRUG2,M,12,4
+Location2,unclear dose,DRUG2,M,21,5
+Location2,unclear dose,DRUG2,M,3,4
+Location2,unclear dose,DRUG2,M,10,5
+Location2,unclear dose,DRUG2,M,3,4
+Location2,unclear dose,DRUG2,M,16,2
+Location2,unclear dose,DRUG2,M,5,9
+Location2,unclear dose,DRUG2,M,18,6
+Location2,unclear dose,DRUG2,M,21,5
+Location2,unclear dose,DRUG2,M,4,4
+Location2,unclear dose,DRUG2,M,6,6
+Location2,unclear dose,DRUG2,M,9,2
+Location2,unclear dose,DRUG2,M,12,10
+Location2,unclear dose,DRUG2,M,25,9
+Location2,unclear dose,DRUG2,M,12,8
+Location2,unclear dose,DRUG2,M,35,10
+Location2,unclear dose,DRUG2,F,2,4
+Location2,unclear dose,DRUG2,M,9,1
+Location2,unclear dose,DRUG2,M,16,3
+Location2,unclear dose,DRUG2,M,10,9
+Location2,unclear dose,DRUG2,M,30,3
+Location4,Medication history documenting error,DRUG1,M,20,9
+Location5,unclear route,DRUG2,M,8,5
+Location4,Medication history documenting error,DRUG1,M,20,2
+Location5,unclear route,DRUG2,M,5,7
+Location4,Medication history documenting error,DRUG1,M,6,3
+Location1,Medication history documenting error,DRUG1,M,7,1
+Location4,Medication history documenting error,DRUG1,M,35,6
+Location1,Medication history documenting error,DRUG1,M,5,6
+Location4,Medication history documenting error,DRUG1,M,2,3
+Location1,Medication history documenting error,DRUG1,M,4,2
+Location4,Medication history documenting error,DRUG1,M,4,9
+Location5,unclear route,DRUG2,M,2,9
+Location4,Medication history documenting error,DRUG1,M,3,1
+Location5,unclear route,DRUG2,M,9,4
+Location4,Medication history documenting error,DRUG1,F,20,6
+Location5,unclear route,DRUG2,M,12,2
+Location1,Medication history documenting error,DRUG1,M,5,1
+Location4,Medication history documenting error,DRUG1,M,5,10
+Location5,unclear route,DRUG2,M,15,6
+Location4,Medication history documenting error,DRUG1,M,12,5
+Location5,unclear route,DRUG2,M,24,1
+Location1,Medication history documenting error,DRUG1,M,35,9
+Location4,Medication history documenting error,DRUG1,M,7,8
+Location5,unclear route,DRUG2,M,14,3
+Location1,Medication history documenting error,DRUG1,M,3,1
+Location4,Medication history documenting error,DRUG1,F,3,6
+Location5,unclear route,DRUG2,M,1,5
+Location1,Medication history documenting error,DRUG1,F,2,8
+Location4,Medication history documenting error,DRUG1,M,4,2
+Location5,unclear route,DRUG2,M,4,2
+Location1,Medication history documenting error,DRUG1,M,3,4
+Location4,Medication history documenting error,DRUG1,M,6,7
+Location5,unclear route,DRUG2,M,15,1
+Location1,Medication history documenting error,DRUG1,F,4,6
+Location4,Medication history documenting error,DRUG1,M,4,3
+Location1,Medication history documenting error,DRUG1,F,25,5
+Location4,Medication history documenting error,DRUG1,M,10,9
+Location5,unclear route,DRUG2,F,15,2
+Location4,Medication history documenting error,DRUG1,M,24,2
+Location5,unclear route,DRUG2,M,12,7
+Location1,Medication history documenting error,DRUG1,F,28,7
+Location1,Medication history documenting error,DRUG1,M,3,10
+Location4,Medication history documenting error,DRUG1,M,3,4
+Location5,unclear route,DRUG2,M,1,7
+Location4,Medication history documenting error,DRUG1,M,8,3
+Location5,unclear route,DRUG2,M,4,5
+Location1,Medication history documenting error,DRUG1,M,15,7
+Location4,Medication history documenting error,DRUG1,M,12,8
+Location5,unclear route,DRUG2,M,3,6
+Location1,Medication history documenting error,DRUG1,M,8,5
+Location4,Medication history documenting error,DRUG1,M,4,4
+Location5,unclear route,DRUG2,M,12,4
+Location1,Medication history documenting error,DRUG1,M,15,5
+Location4,Medication history documenting error,DRUG1,M,10,6
+Location5,unclear route,DRUG2,M,15,8
+Location4,Medication history documenting error,DRUG1,M,24,5
+Location5,unclear route,DRUG2,M,6,8
+Location1,Medication history documenting error,DRUG1,M,7,8
+Location4,Medication history documenting error,DRUG1,M,21,7
+Location5,unclear route,DRUG2,M,7,2
+Location4,Medication history documenting error,DRUG1,M,1,1
+Location5,unclear route,DRUG2,F,4,5
+Location4,Medication history documenting error,DRUG1,M,2,10
+Location1,Medication history documenting error,DRUG1,F,9,7
+Location4,Medication history documenting error,DRUG1,M,12,8
+Location5,unclear route,DRUG2,M,3,9
+Location1,Medication history documenting error,DRUG1,M,16,4
+Location4,Medication history documenting error,DRUG1,M,8,8
+Location5,unclear route,DRUG2,M,8,3
+Location1,Medication history documenting error,DRUG1,M,10,1
+Location4,Medication history documenting error,DRUG1,F,20,8
+Location5,unclear route,DRUG2,F,5,1
+Location4,Medication history documenting error,DRUG1,M,24,9
+Location5,unclear route,DRUG2,M,30,1
+Location2,unclear route,DRUG2,M,16,3
+Location2,unclear route,DRUG2,M,30,8
+Location2,unclear route,DRUG2,F,28,7
+Location2,unclear route,DRUG2,F,1,5
+Location2,unclear route,DRUG2,M,2,9
+Location2,unclear route,DRUG2,M,15,2
+Location2,unclear route,DRUG2,M,20,1
+Location2,unclear route,DRUG2,M,15,1
+Location2,unclear route,DRUG2,M,24,8
+Location2,unclear route,DRUG2,M,21,2
+Location2,unclear route,DRUG2,M,4,10
+Location2,unclear route,DRUG2,M,8,5
+Location2,unclear route,DRUG2,M,6,7
+Location2,unclear route,DRUG2,M,5,4
+Location2,unclear route,DRUG2,M,24,10
+Location2,unclear route,DRUG2,F,28,10
+Location2,unclear route,DRUG2,M,2,7
+Location2,unclear route,DRUG2,M,2,9
+Location2,unclear route,DRUG2,F,6,1
+Location2,unclear route,DRUG2,M,8,4
+Location2,unclear route,DRUG2,F,10,9
+Location2,unclear route,DRUG2,M,30,7
+Location2,unclear route,DRUG2,M,35,3
+Location2,unclear route,DRUG2,F,10,9
+Location2,unclear route,DRUG2,F,12,9
+Location2,unclear route,DRUG2,M,12,6
+Location2,unclear route,DRUG2,M,15,10
+Location2,unclear route,DRUG2,M,24,5
+Location2,Medication history documenting error,DRUG2,M,8,10
+Location2,unclear dose,DRUG2,M,4,1
+Location2,Medication history documenting error,DRUG2,M,5,7
+Location2,unclear dose,DRUG2,M,25,9
+Location2,Medication history documenting error,DRUG2,M,18,10
+Location2,unclear dose,DRUG2,M,30,10
+Location2,Medication history documenting error,DRUG2,F,35,3
+Location2,unclear dose,DRUG2,M,35,1
+Location2,Medication history documenting error,DRUG2,F,3,7
+Location2,unclear dose,DRUG2,M,2,3
+Location2,Medication history documenting error,DRUG2,M,6,3
+Location2,unclear dose,DRUG2,F,2,2
+Location2,Medication history documenting error,DRUG2,F,9,10
+Location2,unclear dose,DRUG2,F,6,9
+Location2,Medication history documenting error,DRUG2,F,4,8
+Location2,unclear dose,DRUG2,M,12,2
+Location2,Medication history documenting error,DRUG2,F,5,4
+Location2,unclear dose,DRUG2,M,25,2
+Location2,Medication history documenting error,DRUG2,M,18,10
+Location2,unclear dose,DRUG2,M,18,3
+Location2,Medication history documenting error,DRUG2,M,7,3
+Location2,unclear dose,DRUG2,M,14,10
+Location2,Medication history documenting error,DRUG2,M,2,2
+Location2,unclear dose,DRUG2,M,5,9
+Location2,Medication history documenting error,DRUG2,F,4,7
+Location2,unclear dose,DRUG2,M,6,10
+Location2,Medication history documenting error,DRUG2,M,6,6
+Location2,unclear dose,DRUG2,M,9,3
+Location2,unclear dose,DRUG2,M,20,8
+Location2,Medication history documenting error,DRUG2,F,5,5
+Location2,unclear dose,DRUG2,M,15,4
+Location2,Medication history documenting error,DRUG2,M,12,6
+Location2,unclear dose,DRUG2,F,12,10
+Location2,Medication history documenting error,DRUG2,F,7,7
+Location2,unclear dose,DRUG2,F,7,1
+Location2,Medication history documenting error,DRUG2,M,3,8
+Location2,unclear dose,DRUG2,M,4,8
+Location2,Medication history documenting error,DRUG2,M,4,10
+Location2,unclear dose,DRUG2,M,4,7
+Location2,Medication history documenting error,DRUG2,M,6,8
+Location2,unclear dose,DRUG2,M,6,6
+Location2,Medication history documenting error,DRUG2,M,8,2
+Location2,unclear dose,DRUG2,M,20,9
+Location2,Medication history documenting error,DRUG2,M,5,6
+Location2,unclear dose,DRUG2,M,25,1
+Location2,Medication history documenting error,DRUG2,M,18,8
+Location2,unclear dose,DRUG2,F,6,1
+Location2,Medication history documenting error,DRUG2,F,7,6
+Location2,unclear dose,DRUG2,F,21,3
+Location2,Medication history documenting error,DRUG2,F,2,10
+Location2,unclear dose,DRUG2,F,5,4
+Location2,Medication history documenting error,DRUG2,F,2,2
+Location2,unclear dose,DRUG2,F,2,10
+Location2,Medication history documenting error,DRUG2,M,9,5
+Location2,unclear dose,DRUG2,F,9,8
+Location2,Medication history documenting error,DRUG2,F,20,6
+Location2,unclear dose,DRUG2,M,4,10
+Location2,Medication history documenting error,DRUG2,M,15,8
+Location2,unclear dose,DRUG2,M,5,9
+Location2,Medication history documenting error,DRUG2,M,18,9
+Location2,unclear dose,DRUG2,M,24,10
+Location5,unclear route,DRUG3,M,12,8
+Location5,unclear route,DRUG3,M,20,8
+Location5,unclear route,DRUG3,M,30,4
+Location5,unclear route,DRUG3,F,8,2
+Location5,unclear route,DRUG3,F,15,3
+Location5,unclear route,DRUG3,M,4,7
+Location5,unclear route,DRUG3,M,10,3
+Location5,unclear route,DRUG3,M,18,6
+Location5,unclear route,DRUG3,M,28,8
+Location5,unclear route,DRUG3,M,5,8
+Location5,unclear route,DRUG3,F,4,10
+Location5,unclear route,DRUG3,M,9,7
+Location5,unclear route,DRUG3,F,16,1
+Location5,unclear route,DRUG3,F,10,2
+Location5,unclear route,DRUG3,M,24,8
+Location5,unclear route,DRUG3,M,5,9
+Location5,unclear route,DRUG3,F,6,6
+Location5,unclear route,DRUG3,F,15,4
+Location5,unclear route,DRUG3,F,20,6
+Location5,unclear route,DRUG3,M,15,10
+Location5,unclear route,DRUG3,M,24,6
+Location5,unclear route,DRUG3,M,21,7
+Location5,unclear route,DRUG3,F,2,9
+Location5,unclear route,DRUG3,F,3,8
+Location5,unclear route,DRUG3,M,4,6
+Location5,unclear route,DRUG3,F,25,6
+Location5,unclear route,DRUG3,M,12,1
+Location5,unclear route,DRUG2,M,12,3
+Location3,Medication history documenting error,DRUG1,M,20,6
+Location6,unclear route,DRUG1,M,8,7
+Location3,Medication history documenting error,DRUG1,M,20,9
+Location6,unclear route,DRUG1,M,20,9
+Location5,unclear route,DRUG1,M,12,3
+Location5,unclear route,DRUG1,F,14,7
+Location3,Medication history documenting error,DRUG1,M,4,9
+Location6,unclear route,DRUG1,F,5,6
+Location3,Medication history documenting error,DRUG1,M,6,6
+Location6,unclear route,DRUG1,F,10,3
+Location3,Medication history documenting error,DRUG1,M,6,7
+Location6,unclear route,DRUG1,F,15,8
+Location3,Medication history documenting error,DRUG1,M,20,7
+Location6,unclear route,DRUG1,M,20,7
+Location3,Medication history documenting error,DRUG1,M,25,4
+Location6,unclear route,DRUG1,M,20,7
+Location5,unclear route,DRUG1,M,12,1
+Location3,Medication history documenting error,DRUG1,M,7,2
+Location5,unclear route,DRUG1,M,14,2
+Location3,Medication history documenting error,DRUG1,M,4,2
+Location6,unclear route,DRUG1,F,4,2
+Location3,Medication history documenting error,DRUG1,M,10,3
+Location6,unclear route,DRUG1,F,6,9
+Location3,Medication history documenting error,DRUG1,M,9,6
+Location6,unclear route,DRUG1,F,3,3
+Location3,Medication history documenting error,DRUG1,M,4,7
+Location3,Medication history documenting error,DRUG1,M,5,6
+Location6,unclear route,DRUG1,F,10,3
+Location5,unclear route,DRUG1,M,24,1
+Location6,unclear route,DRUG1,F,1,1
+Location3,Medication history documenting error,DRUG1,M,2,5
+Location6,unclear route,DRUG1,M,4,3
+Location3,Medication history documenting error,DRUG1,M,12,6
+Location6,unclear route,DRUG1,F,12,4
+Location3,Medication history documenting error,DRUG1,F,8,2
+Location6,unclear route,DRUG1,F,8,6
+Location3,Medication history documenting error,DRUG1,M,15,6
+Location6,unclear route,DRUG1,M,15,3
+Location5,unclear route,DRUG1,M,6,6
+Location3,Medication history documenting error,DRUG1,M,7,3
+Location5,unclear route,DRUG1,M,7,9
+Location3,Medication history documenting error,DRUG1,M,1,5
+Location6,unclear route,DRUG1,F,8,1
+Location3,Medication history documenting error,DRUG1,M,3,1
+Location6,unclear route,DRUG1,M,12,5
+Location3,Medication history documenting error,DRUG1,M,12,4
+Location6,unclear route,DRUG1,M,4,6
+Location3,Medication history documenting error,DRUG1,M,20,9
+Location6,unclear route,DRUG1,M,20,3
+Location5,unclear route,DRUG1,M,30,9
+Location4,Medication history documenting error,DRUG1,M,28,1
+Location4,Medication history documenting error,DRUG1,M,3,7
+Location4,Medication history documenting error,DRUG1,M,2,7
+Location4,Medication history documenting error,DRUG1,M,6,9
+Location4,Medication history documenting error,DRUG1,M,16,7
+Location4,Medication history documenting error,DRUG1,M,10,3
+Location2,unclear dose,DRUG2,M,30,10
+Location4,Medication history documenting error,DRUG1,M,21,3
+Location4,Medication history documenting error,DRUG1,M,3,8
+Location4,Medication history documenting error,DRUG1,M,4,1
+Location4,Medication history documenting error,DRUG1,M,15,2
+Location4,Medication history documenting error,DRUG1,M,12,6
+Location4,Medication history documenting error,DRUG1,M,5,2
+Location2,unclear dose,DRUG2,F,30,6
+Location4,Medication history documenting error,DRUG1,M,14,10
+Location4,Medication history documenting error,DRUG1,M,4,1
+Location4,Medication history documenting error,DRUG1,M,8,1
+Location4,Medication history documenting error,DRUG1,M,9,3
+Location4,Medication history documenting error,DRUG1,M,12,9
+Location4,Medication history documenting error,DRUG1,M,25,4
+Location2,unclear dose,DRUG2,M,12,9
+Location4,Medication history documenting error,DRUG1,M,21,1
+Location4,Medication history documenting error,DRUG1,M,3,5
+Location4,Medication history documenting error,DRUG1,M,6,4
+Location4,Medication history documenting error,DRUG1,M,16,3
+Location4,Medication history documenting error,DRUG1,M,20,3
+Location2,unclear dose,DRUG2,M,30,4
+Location1,unclear dose,DRUG1,M,20,1
+Location1,unclear dose,DRUG1,M,15,4
+Location3,Medication history documenting error,DRUG1,M,30,2
+Location1,unclear dose,DRUG1,M,6,5
+Location3,Medication history documenting error,DRUG1,M,28,10
+Location1,unclear dose,DRUG1,F,21,7
+Location3,Medication history documenting error,DRUG1,M,2,4
+Location3,Medication history documenting error,DRUG1,M,10,8
+Location1,unclear dose,DRUG1,M,8,2
+Location3,Medication history documenting error,DRUG1,M,15,3
+Location1,unclear dose,DRUG1,F,9,3
+Location3,Medication history documenting error,DRUG1,M,16,2
+Location1,unclear dose,DRUG1,M,20,5
+Location3,Medication history documenting error,DRUG1,M,25,6
+Location1,unclear dose,DRUG1,F,15,7
+Location3,Medication history documenting error,DRUG1,M,18,1
+Location1,unclear dose,DRUG1,M,18,5
+Location3,Medication history documenting error,DRUG1,M,35,5
+Location1,unclear dose,DRUG1,F,28,5
+Location3,Medication history documenting error,DRUG1,M,4,8
+Location1,unclear dose,DRUG1,M,4,4
+Location3,Medication history documenting error,DRUG1,M,2,8
+Location1,unclear dose,DRUG1,F,8,3
+Location3,Medication history documenting error,DRUG1,M,12,3
+Location1,unclear dose,DRUG1,M,12,4
+Location3,Medication history documenting error,DRUG1,M,16,8
+Location1,unclear dose,DRUG1,M,16,7
+Location3,Medication history documenting error,DRUG1,M,25,9
+Location1,unclear dose,DRUG1,F,25,5
+Location3,Medication history documenting error,DRUG1,M,6,8
+Location1,unclear dose,DRUG1,M,24,3
+Location3,Medication history documenting error,DRUG1,F,21,7
+Location1,unclear dose,DRUG1,F,7,3
+Location3,Medication history documenting error,DRUG1,M,1,1
+Location1,unclear dose,DRUG1,F,5,1
+Location3,Medication history documenting error,DRUG1,M,6,8
+Location1,unclear dose,DRUG1,M,6,4
+Location3,Medication history documenting error,DRUG1,M,12,7
+Location1,unclear dose,DRUG1,M,12,3
+Location3,Medication history documenting error,DRUG1,M,20,4
+Location1,unclear dose,DRUG1,M,8,9
+Location3,Medication history documenting error,DRUG1,M,10,9
+Location1,unclear dose,DRUG1,M,15,7
+Location3,Medication history documenting error,DRUG1,M,24,3
+Location1,unclear dose,DRUG1,M,30,8
+Location3,Medication history documenting error,DRUG1,M,14,8
+Location1,unclear dose,DRUG1,M,21,8
+Location1,unclear dose,DRUG1,F,4,5
+Location3,Medication history documenting error,DRUG1,F,4,8
+Location1,unclear dose,DRUG1,F,2,1
+Location3,Medication history documenting error,DRUG1,M,15,2
+Location1,unclear dose,DRUG1,M,9,1
+Location3,Medication history documenting error,DRUG1,M,8,5
+Location1,unclear dose,DRUG1,M,8,2
+Location3,Medication history documenting error,DRUG1,M,10,5
+Location1,unclear dose,DRUG1,M,20,5
+Location3,Medication history documenting error,DRUG1,M,6,4
+Location1,unclear dose,DRUG1,M,6,3
+Location1,Medication history documenting error,DRUG1,M,8,3
+Location5,unclear route,DRUG2,M,16,2
+Location5,unclear route,DRUG1,M,16,5
+Location4,Medication history documenting error,DRUG1,M,15,1
+Location5,unclear route,DRUG2,M,25,9
+Location5,unclear route,DRUG1,M,20,1
+Location4,Medication history documenting error,DRUG1,M,30,5
+Location1,Medication history documenting error,DRUG1,F,21,3
+Location4,Medication history documenting error,DRUG1,M,7,1
+Location5,unclear route,DRUG2,F,14,7
+Location5,unclear route,DRUG1,F,35,6
+Location1,Medication history documenting error,DRUG1,F,5,10
+Location4,Medication history documenting error,DRUG1,M,3,5
+Location5,unclear route,DRUG1,F,3,1
+Location1,Medication history documenting error,DRUG1,M,2,5
+Location4,Medication history documenting error,DRUG1,M,2,1
+Location6,unclear route,DRUG1,F,10,10
+Location5,unclear route,DRUG2,F,10,2
+Location1,Medication history documenting error,DRUG1,F,12,8
+Location4,Medication history documenting error,DRUG1,M,9,10
+Location6,unclear route,DRUG1,F,12,8
+Location5,unclear route,DRUG2,F,3,8
+Location1,Medication history documenting error,DRUG1,M,16,7
+Location4,Medication history documenting error,DRUG1,F,4,7
+Location6,unclear route,DRUG1,M,8,8
+Location5,unclear route,DRUG2,M,16,3
+Location1,Medication history documenting error,DRUG1,F,5,3
+Location4,Medication history documenting error,DRUG1,M,25,10
+Location6,unclear route,DRUG1,M,10,10
+Location5,unclear route,DRUG2,M,10,8
+Location4,Medication history documenting error,DRUG1,M,24,10
+Location1,Medication history documenting error,DRUG1,M,21,8
+Location4,Medication history documenting error,DRUG1,M,21,10
+Location6,unclear route,DRUG1,M,7,5
+Location5,unclear route,DRUG2,M,14,3
+Location1,Medication history documenting error,DRUG1,M,2,5
+Location4,Medication history documenting error,DRUG1,M,2,10
+Location6,unclear route,DRUG1,M,3,1
+Location5,unclear route,DRUG2,M,2,7
+Location1,Medication history documenting error,DRUG1,F,10,7
+Location4,Medication history documenting error,DRUG1,M,10,10
+Location6,unclear route,DRUG1,F,2,9
+Location5,unclear route,DRUG2,F,2,6
+Location1,Medication history documenting error,DRUG1,M,9,7
+Location4,Medication history documenting error,DRUG1,M,12,7
+Location6,unclear route,DRUG1,M,3,6
+Location5,unclear route,DRUG2,M,9,7
+Location1,Medication history documenting error,DRUG1,F,8,9
+Location4,Medication history documenting error,DRUG1,F,12,5
+Location6,unclear route,DRUG1,F,8,6
+Location5,unclear route,DRUG2,F,16,8
+Location1,Medication history documenting error,DRUG1,F,15,9
+Location4,Medication history documenting error,DRUG1,F,10,10
+Location5,unclear route,DRUG2,F,25,5
+Location4,Medication history documenting error,DRUG1,M,18,1
+Location1,Medication history documenting error,DRUG1,F,21,1
+Location4,Medication history documenting error,DRUG1,M,28,10
+Location6,unclear route,DRUG1,F,21,6
+Location1,Medication history documenting error,DRUG1,F,4,5
+Location4,Medication history documenting error,DRUG1,M,5,5
+Location6,unclear route,DRUG1,M,1,2
+Location5,unclear route,DRUG2,F,4,7
+Location1,Medication history documenting error,DRUG1,F,2,8
+Location4,Medication history documenting error,DRUG1,M,10,10
+Location6,unclear route,DRUG1,M,10,1
+Location5,unclear route,DRUG2,M,8,2
+Location1,Medication history documenting error,DRUG1,M,15,10
+Location4,Medication history documenting error,DRUG1,M,12,9
+Location6,unclear route,DRUG1,M,9,6
+Location5,unclear route,DRUG2,M,3,9
+Location1,Medication history documenting error,DRUG1,M,20,8
+Location4,Medication history documenting error,DRUG1,M,20,1
+Location6,unclear route,DRUG1,M,4,10
+Location5,unclear route,DRUG2,M,12,9
+Location1,Medication history documenting error,DRUG1,M,20,3
+Location4,Medication history documenting error,DRUG1,M,15,4
+Location6,unclear route,DRUG1,F,15,10
+Location5,unclear route,DRUG2,M,25,5
+Location4,Medication history documenting error,DRUG1,M,12,10
+Location1,Medication history documenting error,DRUG1,M,21,9
+Location4,Medication history documenting error,DRUG1,M,28,6
+Location6,unclear route,DRUG1,M,21,10
+Location5,unclear route,DRUG2,F,28,9
+Location1,Medication history documenting error,DRUG1,F,1,5
+Location4,Medication history documenting error,DRUG1,M,2,10
+Location6,unclear route,DRUG1,F,5,5
+Location5,unclear route,DRUG2,F,2,4
+Location1,Medication history documenting error,DRUG1,F,3,3
+Location4,Medication history documenting error,DRUG1,M,3,8
+Location6,unclear route,DRUG1,F,3,2
+Location5,unclear route,DRUG2,M,9,1
+Location1,Medication history documenting error,DRUG1,M,8,5
+Location4,Medication history documenting error,DRUG1,M,20,3
+Location6,unclear route,DRUG1,M,4,6
+Location5,unclear route,DRUG2,M,20,10
+Location4,Medication history documenting error,DRUG1,M,10,7
+Location6,unclear route,DRUG1,M,25,9
+Location5,unclear route,DRUG2,F,10,1
+Location4,Medication history documenting error,DRUG1,M,30,6
+Location3,Medication history documenting error,DRUG1,F,2,1
+Location3,Medication history documenting error,DRUG1,M,2,9
+Location3,Medication history documenting error,DRUG1,M,6,5
+Location3,Medication history documenting error,DRUG1,M,16,9
+Location3,Medication history documenting error,DRUG1,M,10,9
+Location3,Medication history documenting error,DRUG1,M,14,9
+Location3,Medication history documenting error,DRUG1,M,1,7
+Location3,Medication history documenting error,DRUG1,M,8,3
+Location3,Medication history documenting error,DRUG1,F,12,1
+Location3,Medication history documenting error,DRUG1,F,4,1
+Location3,Medication history documenting error,DRUG1,M,5,7
+Location3,Medication history documenting error,DRUG1,M,3,2
+Location3,Medication history documenting error,DRUG1,M,2,10
+Location3,Medication history documenting error,DRUG1,M,9,8
+Location3,Medication history documenting error,DRUG1,M,12,10
+Location3,Medication history documenting error,DRUG1,M,20,1
+Location3,Medication history documenting error,DRUG1,M,28,7
+Location3,Medication history documenting error,DRUG1,M,3,10
+Location3,Medication history documenting error,DRUG1,M,20,2
+Location3,Medication history documenting error,DRUG1,M,10,5
+Location4,Medication history documenting error,DRUG1,M,21,4
+Location4,Medication history documenting error,DRUG1,M,2,1
+Location4,Medication history documenting error,DRUG1,M,10,2
+Location4,Medication history documenting error,DRUG1,F,12,5
+Location4,Medication history documenting error,DRUG1,F,8,10
+Location4,Medication history documenting error,DRUG1,M,20,3
+Location4,Medication history documenting error,DRUG1,M,14,10
+Location4,Medication history documenting error,DRUG1,M,1,1
+Location4,Medication history documenting error,DRUG1,M,4,1
+Location4,Medication history documenting error,DRUG1,F,15,4
+Location4,Medication history documenting error,DRUG1,M,10,6
+Location4,Medication history documenting error,DRUG1,M,14,10
+Location4,Medication history documenting error,DRUG1,M,5,7
+Location4,Medication history documenting error,DRUG1,M,6,6
+Location4,Medication history documenting error,DRUG1,M,15,7
+Location4,Medication history documenting error,DRUG1,M,20,6
+Location4,Medication history documenting error,DRUG1,M,20,2
+Location4,Medication history documenting error,DRUG1,M,14,6
+Location4,Medication history documenting error,DRUG1,M,3,2
+Location4,Medication history documenting error,DRUG1,F,12,5
+Location4,Medication history documenting error,DRUG1,M,8,2
+Location4,Medication history documenting error,DRUG1,M,10,5
+Location3,Medication history documenting error,DRUG1,M,16,5
+Location3,Medication history documenting error,DRUG1,M,20,5
+Location3,Medication history documenting error,DRUG1,M,18,1
+Location3,Medication history documenting error,DRUG1,M,7,7
+Location3,Medication history documenting error,DRUG1,M,4,2
+Location3,Medication history documenting error,DRUG1,M,4,2
+Location3,Medication history documenting error,DRUG1,M,9,5
+Location3,Medication history documenting error,DRUG1,M,4,2
+Location3,Medication history documenting error,DRUG1,M,25,2
+Location3,Medication history documenting error,DRUG1,M,12,9
+Location3,Medication history documenting error,DRUG1,M,14,7
+Location3,Medication history documenting error,DRUG1,M,5,4
+Location3,Medication history documenting error,DRUG1,F,6,3
+Location3,Medication history documenting error,DRUG1,F,6,9
+Location3,Medication history documenting error,DRUG1,F,8,10
+Location3,Medication history documenting error,DRUG1,M,20,5
+Location3,Medication history documenting error,DRUG1,M,30,5
+Location3,Medication history documenting error,DRUG1,M,28,5
+Location3,Medication history documenting error,DRUG1,M,3,4
+Location3,Medication history documenting error,DRUG1,M,6,1
+Location3,Medication history documenting error,DRUG1,M,3,6
+Location3,Medication history documenting error,DRUG1,M,4,4
+Location3,Medication history documenting error,DRUG1,M,20,6
+Location3,Medication history documenting error,DRUG1,M,30,6
+Location3,Medication history documenting error,DRUG1,M,28,1
+Location3,Medication history documenting error,DRUG1,M,5,9
+Location3,Medication history documenting error,DRUG1,F,10,8
+Location3,Medication history documenting error,DRUG1,F,3,1
+Location3,Medication history documenting error,DRUG1,M,4,3
+Location3,Medication history documenting error,DRUG1,M,20,3
+Location3,Medication history documenting error,DRUG1,M,18,10
+Location4,Medication history documenting error,DRUG1,M,8,7
+Location4,Medication history documenting error,DRUG1,M,25,1
+Location5,unclear route,DRUG1,M,20,8
+Location4,Medication history documenting error,DRUG1,M,28,2
+Location4,Medication history documenting error,DRUG1,M,4,10
+Location5,unclear route,DRUG1,M,2,9
+Location4,Medication history documenting error,DRUG1,M,6,3
+Location5,unclear route,DRUG1,F,10,9
+Location4,Medication history documenting error,DRUG1,M,12,2
+Location5,unclear route,DRUG1,M,12,2
+Location4,Medication history documenting error,DRUG1,M,4,6
+Location5,unclear route,DRUG1,M,16,1
+Location4,Medication history documenting error,DRUG1,M,20,6
+Location5,unclear route,DRUG1,M,10,5
+Location4,Medication history documenting error,DRUG1,M,14,10
+Location4,Medication history documenting error,DRUG1,M,2,6
+Location5,unclear route,DRUG1,M,4,5
+Location4,Medication history documenting error,DRUG1,M,8,2
+Location5,unclear route,DRUG1,M,8,1
+Location4,Medication history documenting error,DRUG1,M,3,2
+Location5,unclear route,DRUG1,M,3,9
+Location4,Medication history documenting error,DRUG1,F,4,2
+Location5,unclear route,DRUG1,F,20,1
+Location4,Medication history documenting error,DRUG1,M,20,4
+Location5,unclear route,DRUG1,M,10,3
+Location4,Medication history documenting error,DRUG1,M,7,3
+Location4,Medication history documenting error,DRUG1,M,1,4
+Location5,unclear route,DRUG1,M,1,6
+Location4,Medication history documenting error,DRUG1,M,2,4
+Location5,unclear route,DRUG1,M,4,4
+Location4,Medication history documenting error,DRUG1,M,12,3
+Location5,unclear route,DRUG1,M,15,5
+Location4,Medication history documenting error,DRUG1,F,12,2
+Location5,unclear route,DRUG1,M,16,9
+Location4,Medication history documenting error,DRUG1,M,15,1
+Location5,unclear route,DRUG1,M,25,7
+Location4,Medication history documenting error,DRUG1,F,35,9
+Location4,Medication history documenting error,DRUG1,F,4,7
+Location5,unclear route,DRUG1,M,5,2
+Location4,Medication history documenting error,DRUG1,M,6,9
+Location5,unclear route,DRUG1,F,9,2
+Location4,Medication history documenting error,DRUG1,M,20,6
+Location5,unclear route,DRUG1,M,4,10
+Location4,Medication history documenting error,DRUG1,M,20,6
+Location5,unclear route,DRUG1,M,15,3
+Location2,unclear dose,DRUG2,M,16,1
+Location2,Medication history documenting error,DRUG2,M,12,10
+Location2,unclear route,DRUG2,M,8,1
+Location2,unclear dose,DRUG2,F,15,1
+Location2,Medication history documenting error,DRUG2,M,10,9
+Location2,unclear dose,DRUG2,F,18,3
+Location2,Medication history documenting error,DRUG2,M,12,9
+Location2,unclear route,DRUG2,M,12,4
+Location2,unclear dose,DRUG2,M,28,10
+Location2,Medication history documenting error,DRUG2,M,35,4
+Location2,unclear route,DRUG2,F,21,10
+Location2,unclear dose,DRUG2,F,4,7
+Location2,Medication history documenting error,DRUG2,M,3,9
+Location2,unclear route,DRUG2,F,1,3
+Location2,unclear dose,DRUG2,F,6,6
+Location2,Medication history documenting error,DRUG2,M,4,2
+Location2,unclear route,DRUG2,M,10,6
+Location2,unclear dose,DRUG2,M,3,10
+Location2,unclear route,DRUG2,M,15,6
+Location2,Medication history documenting error,DRUG2,F,8,10
+Location2,unclear dose,DRUG2,M,8,3
+Location2,unclear route,DRUG2,M,16,7
+Location2,Medication history documenting error,DRUG2,M,10,9
+Location2,unclear dose,DRUG2,M,5,3
+Location2,unclear route,DRUG2,M,10,9
+Location2,Medication history documenting error,DRUG2,M,6,4
+Location2,unclear dose,DRUG2,M,30,1
+Location2,unclear route,DRUG2,M,24,8
+Location2,Medication history documenting error,DRUG2,M,28,3
+Location2,unclear dose,DRUG2,F,35,3
+Location2,unclear route,DRUG2,M,35,6
+Location2,Medication history documenting error,DRUG2,M,4,4
+Location2,unclear dose,DRUG2,M,3,5
+Location2,unclear route,DRUG2,M,4,6
+Location2,Medication history documenting error,DRUG2,M,8,8
+Location2,unclear dose,DRUG2,M,4,2
+Location2,unclear route,DRUG2,M,6,4
+Location2,Medication history documenting error,DRUG2,M,12,3
+Location2,unclear dose,DRUG2,M,6,1
+Location2,unclear route,DRUG2,F,12,6
+Location2,Medication history documenting error,DRUG2,F,8,2
+Location2,unclear dose,DRUG2,M,20,4
+Location2,unclear route,DRUG2,M,8,4
+Location2,Medication history documenting error,DRUG2,M,5,8
+Location2,unclear dose,DRUG2,M,10,6
+Location2,unclear route,DRUG2,M,10,1
+Location2,Medication history documenting error,DRUG2,F,6,4
+Location2,unclear dose,DRUG2,F,24,6
+Location2,unclear route,DRUG2,F,30,9
+Location2,Medication history documenting error,DRUG2,M,7,7
+Location2,unclear dose,DRUG2,M,35,2
+Location2,unclear route,DRUG2,M,35,1
+Location2,Medication history documenting error,DRUG2,F,3,8
+Location2,unclear dose,DRUG2,M,4,10
+Location2,unclear route,DRUG2,F,5,9
+Location2,Medication history documenting error,DRUG2,M,2,5
+Location2,unclear dose,DRUG2,M,4,10
+Location2,unclear route,DRUG2,M,8,9
+Location2,Medication history documenting error,DRUG2,F,3,3
+Location2,unclear dose,DRUG2,M,12,10
+Location2,unclear route,DRUG2,M,6,5
+Location2,Medication history documenting error,DRUG2,M,8,7
+Location2,unclear dose,DRUG2,M,12,8
+Location2,unclear route,DRUG2,M,8,6
+Location2,Medication history documenting error,DRUG2,F,25,9
+Location2,unclear dose,DRUG2,M,15,6
+Location2,unclear route,DRUG2,F,20,5
+Location2,Medication history documenting error,DRUG2,M,18,5
+Location2,unclear dose,DRUG2,M,24,10
+Location2,unclear route,DRUG2,M,12,2
+Location2,Medication history documenting error,DRUG2,F,35,10
+Location2,unclear dose,DRUG2,F,35,10
+Location2,unclear route,DRUG2,F,21,3
+Location2,Medication history documenting error,DRUG2,F,1,10
+Location2,unclear dose,DRUG2,M,2,7
+Location2,unclear route,DRUG2,F,3,9
+Location2,unclear dose,DRUG2,F,6,1
+Location2,unclear route,DRUG2,F,4,3
+Location2,Medication history documenting error,DRUG2,F,6,7
+Location2,unclear dose,DRUG2,M,9,10
+Location2,unclear route,DRUG2,M,3,3
+Location2,Medication history documenting error,DRUG2,M,20,8
+Location2,unclear dose,DRUG2,M,4,4
+Location2,unclear route,DRUG2,F,16,2
+Location2,Medication history documenting error,DRUG2,M,5,4
+Location2,unclear dose,DRUG2,F,20,5
+Location2,unclear route,DRUG2,M,25,8
+Location2,Medication history documenting error,DRUG2,M,24,9
+Location2,unclear dose,DRUG2,M,6,2
+Location2,unclear route,DRUG2,M,18,2
+Location5,unclear route,DRUG1,M,14,6
+Location5,unclear route,DRUG1,F,35,5
