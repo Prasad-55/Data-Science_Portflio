@@ -35,3 +35,9 @@ layer.
 ● Analyzed the training process with the help of TensorBoard.
 
 ● Saved the trained model, including its architecture and learned weights.
+
+## Model Loading and Verification:
+
+● Load the saved model and verify its architecture.
+
+● Check the consistency in the number of model parameters and weights.
