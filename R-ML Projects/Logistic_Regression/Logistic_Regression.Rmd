@@ -1,0 +1,237 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r}
+pharma = read.csv("C:/PRASAD wORKS/Python Works/Final Intellipaat - Submission/R/Assignments/Pharmacovigilance_audit_Data.csv", stringsAsFactors = TRUE)
+
+churn = read.csv("C:/PRASAD wORKS/Python Works/Final Intellipaat - Submission/R/Assignments/customer_churn.csv", stringsAsFactors = TRUE)
+
+temperature = read.csv("C:/PRASAD wORKS/Python Works/Final Intellipaat - Submission/R/Assignments/city_temperature.csv", stringsAsFactors = TRUE)
+```
+
+```{r}
+# Check for NA values in the entire dataset
+na_values <- is.na(churn)
+
+# Summarize the number of NA values in each column
+na_count <- colSums(na_values)
+
+# Display the number of NA values in each column
+print(na_count)
+
+```
+
+```{r}
+# Remove rows with NA values in the TotalCharges column
+churn <- churn[!is.na(churn$TotalCharges), ]
+
+```
+
+```{r}
+print(na_count)
+```
+
+
+```{r}
+library(caTools)
+library(MASS)
+```
+
+```{r}
+sample.split(temperature$Region, SplitRatio = 0.70) -> split_tag1
+
+sample.split(churn$Churn, SplitRatio = 0.80) -> split_tag2
+
+sample.split(pharma$DrugID, SplitRatio = 0.75) -> split_tag3
+
+```
+
+
+```{r}
+train1 = subset(temperature, split_tag1==T)
+test1 = subset(temperature, split_tag1==F)
+```
+
+```{r}
+train2 = subset(churn, split_tag2==T)
+test2 = subset(churn, split_tag2==F)
+```
+
+```{r}
+train3 = subset(pharma, split_tag3==T)
+test3 = subset(pharma, split_tag3==F)
+```
+
+```{r}
+unique(temperature$Region)
+unique(churn$Churn)
+```
+```{r}
+library(nnet)
+```
+
+
+```{r}
+logit_model <- glm(Region ~ AvgTemperature, data = train1, family = "binomial")
+
+logit_model2 <- glm(Churn~MonthlyCharges, data = train2, family = "binomial")
+
+logit_model3 <- glm(DrugID~Age, data = train3, family = "binomial")
+```
+
+
+```{r}
+model1 <- glm(Region ~ AvgTemperature + Day + Month + Year, data = train1, family = "binomial")
+
+model2 <- glm(Churn ~ tenure + StreamingTV + MonthlyCharges + TotalCharges, data = train2, family = "binomial")
+
+model3 <- glm(DrugID ~ Gender + Age + PatientID , data = train3, family = "binomial")
+
+
+```
+
+
+```{r}
+predict(model1, newdata = test1, type = "response") -> result_log1
+
+predict(model2, newdata = test2, type = "response") -> result_log2
+
+predict(model3, newdata = test3, type = "response") -> result_log3
+```
+
+
+```{r}
+View(result_log1)
+```
+
+
+
+
+
+```{r}
+#Single Logistic Regression (Model )
+predictions <- predict(logit_model, newdata = test1, type = "response")
+
+Result1 <- data.frame(Actual = test1$Region, Predicted = predictions > 0.5)
+
+errors1 <- sum(Result1$Actual != Result1$Predicted)
+
+conf_matrix_1a <- table(Result1$Actual, Result1$Predicted)
+
+accuracy_1a <- sum(diag(conf_matrix_1a)) / sum(conf_matrix_1a)
+
+print(Result1)
+print(paste("Errors:", errors1))
+print("Confusion Matrix:")
+print(conf_matrix_1a)
+print(paste("Accuracy:", accuracy_1a))
+
+```
+
+```{r}
+#Single Logistic Regression (Model 2)
+predictions <- predict(logit_model2, newdata = test2, type = "response")
+
+Result2 <- data.frame(Actual = test2$Churn, Predicted = predictions > 0.1)
+
+errors2 <- sum(Result2$Actual != Result2$Predicted)
+
+conf_matrix_2a <- table(Result2$Actual, Result2$Predicted)
+
+accuracy_2a <- sum(diag(conf_matrix_2a)) / sum(conf_matrix_2a)
+
+print(Result2)
+print(paste("Errors:", errors2))
+print("Confusion Matrix:")
+print(conf_matrix_2a)
+print(paste("Accuracy:", accuracy_2a))
+```
+
+```{r}
+#Single Logistic Regression (Model 1)
+predictions <- predict(logit_model3, newdata = test3, type = "response")
+
+Result3 <- data.frame(Actual = test3$DrugID, Predicted = predictions > 0.5)
+
+errors3 <- sum(Result3$Actual != Result3$Predicted)
+
+conf_matrix_3a <- table(Result3$Actual, Result3$Predicted)
+
+accuracy_3a <- sum(diag(conf_matrix_3a)) / sum(conf_matrix_3a)
+
+print(Result3)
+print(paste("Errors:", errors3))
+print("Confusion Matrix:")
+print(conf_matrix_3a)
+print(paste("Accuracy:", accuracy_3a))
+```
+
+
+```{r}
+#Multiple Logistic Regression (Model 1)
+predictions <- predict(model1, newdata = test1, type = "response")
+
+
+MultiResult1 <- data.frame(Actual = test1$Region, Predicted = ifelse(predictions > 0.5, "Yes", "No"))
+
+
+errors <- sum(MultiResult1$Actual != MultiResult1$Predicted)
+
+
+conf_matrix <- table(MultiResult1$Actual, MultiResult1$Predicted)
+
+
+accuracy <- sum(diag(conf_matrix)) / sum(conf_matrix)
+
+# Print results
+print(MultiResult1)
+print(paste("Errors:", errors))
+print("Confusion Matrix:")
+print(conf_matrix)
+print(paste("Accuracy:", accuracy))
+
+```
+
+```{r}
+#Multiple Logistic Regression (Model 2)
+data.frame(Actual = test2$Churn, Predicted= result_log2>0.1) -> MultiResult2
+
+errors2 <- sum(MultiResult2$Actual != MultiResult2$Predicted)
+
+conf_matrix2 <- table(MultiResult2$Actual, MultiResult2$Predicted)
+
+# Calculate accuracy
+accuracy2 <- sum(diag(conf_matrix2)) / sum(conf_matrix2)
+
+# Print results
+print(MultiResult2)
+print(paste("Errors:", errors2))
+print("Confusion Matrix:")
+print(conf_matrix2)
+print(paste("Accuracy:", accuracy2))
+```
+
+```{r}
+#Multiple Logistic Regression (Model 3)
+data.frame(Actual = test3$DrugID, Predicted= result_log3>0.1) -> MultiResult3
+
+errors3 <- sum(MultiResult3$Actual != MultiResult3$Predicted)
+
+conf_matrix3 <- table(MultiResult3$Actual, MultiResult3$Predicted)
+
+# Calculate accuracy
+accuracy3 <- sum(diag(conf_matrix3)) / sum(conf_matrix3)
+
+# Print results
+print(MultiResult3)
+print(paste("Errors:", errors3))
+print("Confusion Matrix:")
+print(conf_matrix3)
+print(paste("Accuracy:", accuracy3))
+```
+
+
+
